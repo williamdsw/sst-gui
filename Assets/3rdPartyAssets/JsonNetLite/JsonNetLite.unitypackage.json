@@ -1,0 +1,15 @@
+{
+  "Id": "JsonNetLite",
+  "Version": "9.0.1",
+  "Authors": [
+    "James Newton-King"
+  ],
+  "Owners": [
+    "Esun Kim"
+  ],
+  "Description": "Unity3D port of Json.NET which is a popular high-performance JSON framework for .NET",
+  "Files": [
+    "Assets/UnityPackages/JsonNetLite/Newtonsoft.Json.dll",
+    "Assets/UnityPackages/JsonNetLite/Newtonsoft.Json.dll.mdb"
+  ]
+}
