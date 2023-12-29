@@ -1,0 +1,9 @@
+[{
+    "language": "en-us",
+    "chooseSaturnRamFile": "Choose Saturn RAM file",
+    "chooseSarooFile": "Choose SAROO save file",
+    "doNotImportBackupRam": "Do not import a Backup RAM file here!",
+    "doNotImportSarooFile": "Do not import a SAROO file here!",
+    "doNotImportSaveFile": "Do not import a single save file here!",
+    "saveLocation": "Save location"
+}]
