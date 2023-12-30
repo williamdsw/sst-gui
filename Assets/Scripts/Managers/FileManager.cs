@@ -1,5 +1,6 @@
 using System;
 using System.IO;
+using System.Text;
 
 namespace Managers
 {
@@ -81,5 +82,89 @@ namespace Managers
                 throw ex;
             }
         }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="path"></param>
+        /// <returns></returns>
+        public static string GetIdVersionInFile(string path)
+        {
+            try
+            {
+                byte[] data = new byte[16];
+
+                using FileStream stream = new(path, FileMode.Open);
+                using BinaryReader reader = new(stream);
+                reader.BaseStream.Seek(48, SeekOrigin.Begin);
+                reader.Read(data, 0, 16);
+                return Encoding.UTF8.GetString(data);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="sarooPath"></param>
+        /// <returns></returns>
+        public static byte[] Test(string sarooPath)
+        {
+            try
+            {
+                using FileStream stream = new(sarooPath, FileMode.Open);
+                using BinaryReader reader = new(stream);
+                return reader.ReadBytes((int)stream.Length);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="sarooPath"></param>
+        /// <returns></returns>
+        public static void Test2(string sarooPath, int indexOfLastName, byte[] newGame)
+        {
+            try
+            {
+                UnityEngine.Debug.Log(indexOfLastName + 16);
+                UnityEngine.Debug.Log(newGame.Length);
+                using FileStream stream = new(sarooPath, FileMode.Open, FileAccess.ReadWrite);
+                stream.Position = indexOfLastName + 16;
+                stream.Write(newGame, 0, newGame.Length);
+
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public static int Search(byte[] src, byte[] pattern)
+        {
+            int maxFirstCharSlot = src.Length - pattern.Length + 1;
+            for (int i = 0; i < maxFirstCharSlot; i++)
+            {
+                if (src[i] != pattern[0]) // compare only first byte
+                    continue;
+
+                // found a match on first byte, now try to match rest of the pattern
+                for (int j = pattern.Length - 1; j >= 1; j--)
+                {
+                    if (src[i + j] != pattern[j]) break;
+                    if (j == 1) return i;
+                }
+            }
+            return -1;
+        }
+
+
     }
 }

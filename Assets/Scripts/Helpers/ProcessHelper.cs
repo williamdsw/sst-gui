@@ -58,8 +58,17 @@ namespace Helpers
         {
             if (!string.IsNullOrEmpty(args.Data) && !string.IsNullOrWhiteSpace(args.Data))
             {
+                UnityEngine.Debug.Log(args.Data);
+
+                List<string> errors = new()
+                {
+                    "Faield to load save file!",
+                    "Not a SSAVERAW file!",
+                    "  empty bup memory, need format."
+                };
+
                 // TODO
-                bool isValid = !args.Data.Equals("Faield to load save file!") && args.Data.IndexOf("Not a SSAVERAW file!") == -1;
+                bool isValid = errors.IndexOf(args.Data) == -1;
                 outputItems.Add(new OutputItem()
                 {
                     IsValid = isValid,

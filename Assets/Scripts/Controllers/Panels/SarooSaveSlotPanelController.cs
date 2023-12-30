@@ -223,6 +223,11 @@ namespace Controllers.Panels
             int index = 0;
             foreach (OutputItem item in saveSlotItems)
             {
+                if (!item.IsValid)
+                {
+                    importNewSlotButton.interactable = false;
+                }
+
                 SlotItemPrefab v = Instantiate(slotItemPrefab, scrollRectViewportContent.transform.position, Quaternion.identity);
                 v.transform.SetParent(scrollRectViewportContent);
                 v.Init(item, index, scrollRectViewportContentToggleGroup, (isValid, saveSlot, slotName) =>
@@ -231,7 +236,7 @@ namespace Controllers.Panels
                     Debug.Log(slotName.IndexOf(":"));
 
                     currentSave = saveSlot;
-                    choosenFileName = slotName.Substring(slotName.IndexOf(":") + 1).Trim();
+                    choosenFileName = slotName[(slotName.IndexOf(":") + 1)..].Trim();
                     currentSaveName = string.Concat(choosenFileName, ".bin");
                     UnityEngine.Debug.LogFormat("currentSaveSlot : {0}", saveSlot);
                     UnityEngine.Debug.LogFormat("choosenFileName : {0}", choosenFileName);

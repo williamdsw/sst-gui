@@ -8,7 +8,7 @@ using SFB;
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.IO;
+using System.Text;
 using UI;
 using UnityEngine;
 using UnityEngine.UI;
@@ -34,6 +34,8 @@ namespace Controllers.Panels
         [SerializeField] private string currentSaveName = string.Empty;
         [SerializeField] private string currentSaveSlotName = string.Empty;
         [SerializeField] private string choosenFileName = string.Empty;
+
+        private byte[] sarooContentFile;
 
         private Language language = new Language();
 
@@ -66,8 +68,12 @@ namespace Controllers.Panels
             {
                 if (paths.Length == 0) return;
 
+                sarooSaveSlotPanelController.Reset();
+
                 // TODO
                 OutputScrollViewController.Instance.Add(string.Format("Importing {0} file", paths[0]), OutputItemEnum.Info);
+
+                sarooContentFile = FileManager.Test(paths[0]);
 
                 filePath = string.Format("\"{0}\"", paths[0]);
                 List<string> arguments = new() { filePath };
@@ -93,6 +99,26 @@ namespace Controllers.Panels
             // TODO
             try
             {
+                if (paths.Length == 0) return;
+
+                string content = FileManager.GetIdVersionInFile(paths[0]);
+                if (validGames.IndexOf(content) != -1)
+                {
+                    // TODO
+                    string text = string.Format("[{0}] already exists in SAROO Save File!", content);
+                    OutputScrollViewController.Instance.Add(text, OutputItemEnum.Error);
+                    return;
+                }
+
+                Debug.LogFormat("text: {0}, bytes: {1}", "MK-81213  V1.001", JsonConvert.SerializeObject(Encoding.UTF8.GetBytes("MK-81213  V1.001")));
+                Debug.LogFormat("text: {0}, bytes: {1}", content, JsonConvert.SerializeObject(Encoding.UTF8.GetBytes(content)));
+                Debug.Log(FileManager.Search(sarooContentFile, Encoding.UTF8.GetBytes("MK-81213  V1.001")));
+                Debug.Log(FileManager.Search(sarooContentFile, Encoding.UTF8.GetBytes(content)));
+
+                FileManager.Test2(filePath.Replace("\"", ""), FileManager.Search(sarooContentFile, Encoding.UTF8.GetBytes(validGames[^1])), Encoding.UTF8.GetBytes(content));
+
+                OnSarooFileChooseCallback(new string[] { filePath.Replace("\"", "") });
+
 
             }
             catch (Exception ex)
@@ -129,7 +155,7 @@ namespace Controllers.Panels
                         item.IsValid = false;
                         SlotItemPrefab invalidSlotItem = Instantiate(slotItemPrefab, scrollRectViewportContent.transform.position, Quaternion.identity);
                         invalidSlotItem.transform.SetParent(scrollRectViewportContent);
-                        invalidSlotItem.Init(item, index, scrollRectViewportContentToggleGroup, null);
+                        invalidSlotItem.Init(item, index + 1, scrollRectViewportContentToggleGroup, null);
                         OutputScrollViewController.Instance.Add(item.Content, OutputItemEnum.Error);
                         yield break;
                     }
@@ -164,7 +190,7 @@ namespace Controllers.Panels
 
                     SlotItemPrefab validSlotItem = Instantiate(slotItemPrefab, scrollRectViewportContent.transform.position, Quaternion.identity);
                     validSlotItem.transform.SetParent(scrollRectViewportContent);
-                    validSlotItem.Init(item, index, scrollRectViewportContentToggleGroup, OnSlotItemChoose);
+                    validSlotItem.Init(item, index + 1, scrollRectViewportContentToggleGroup, OnSlotItemChoose);
                 }
 
                 string a = fileOutputItems.Count >= 1 ? string.Format("{0} has {1} games", filePath, fileOutputItems.Count) : string.Format("{0} doesn't have any game", filePath);
