@@ -1,0 +1,940 @@
+[
+  {
+    "productId": "T-5020H",
+    "version": "V1.000",
+    "name": "Andretti Racing",
+    "areaCode": "U",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-9527G",
+    "version": "V1.401",
+    "name": "Akumajo Dracula X: Gekka no Yasokyoku",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-33901G",
+    "version": "V1.004",
+    "name": "Baroque",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-14405G",
+    "version": "V1.400",
+    "name": "DonPachi",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "MK-81023",
+    "version": "V0.003",
+    "name": "Virtua Fighter Remix",
+    "areaCode": "E",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-9701H",
+    "version": "V1.006",
+    "name": "Ultimate Mortal Kombat 3",
+    "areaCode": "U",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-32901G",
+    "version": "V1.003",
+    "name": "Silhouette Mirage",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-13308G",
+    "version": "V1.001",
+    "name": "Ultraman ~Hikari no Kyojin Densetsu~",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-15019G",
+    "version": "V1.000",
+    "name": "Shutokou Battle '97 ~Tsuchiya Keiichi & Bandou Masaaki~",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-1110G",
+    "version": "V1.002",
+    "name": "Tokyo Shadow",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-14401G",
+    "version": "V1.003",
+    "name": "Touge King the Spirits",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-1808G",
+    "version": "V1.003",
+    "name": "Thunder Force Gold Pack 2",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-32902G",
+    "version": "V1.002",
+    "name": "Radiant Silvergun",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-1219H",
+    "version": "V1.001",
+    "name": "Mega Man X4",
+    "areaCode": "U",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-4401G",
+    "version": "V1.000",
+    "name": "Message Navi",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-1246G",
+    "version": "V1.002",
+    "name": "Street Fighter Zero 3 (Kakuchou Ram Cartridge 4MB Fuzoku)",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-5306G",
+    "version": "V1.003",
+    "name": "Tactics Ogre",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-25503G",
+    "version": "V1.003",
+    "name": "Koudou Saisoku Densetsu ~Kashiramoji D (Initial D)",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-3602G",
+    "version": "V1.004",
+    "name": "J.League Go Go Goal!",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-5014H",
+    "version": "V1.000",
+    "name": "CrUader: No Remorse",
+    "areaCode": "U",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-20402G",
+    "version": "V1.002",
+    "name": "Strikers 1945 II",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-14407G",
+    "version": "V1.01J",
+    "name": "Strikers 1945",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-9704H",
+    "version": "V1.000",
+    "name": "Mortal Kombat Trilogy",
+    "areaCode": "U",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-1236G",
+    "version": "V1.000",
+    "name": "Capcom Generation ~Dai-5-shuu Kakutouka-tachi~",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-3108G",
+    "version": "V1.001",
+    "name": "The King of Fighters '96",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-1222H",
+    "version": "V1.000",
+    "name": "Street Fighter Collection",
+    "areaCode": "U",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-14411G",
+    "version": "V1.001",
+    "name": "Groove on Fight ~Gouketsuji Ichizoku 3~",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-1221G",
+    "version": "V1.002",
+    "name": "Rockman X4",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-3121G",
+    "version": "V1.001",
+    "name": "The King of Fighters '97 (Kakuchou Ram Cartridge-tsuki Okaidoku Set!!)",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-16103H",
+    "version": "V1.000",
+    "name": "Die Hard Trilogy",
+    "areaCode": "U",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-1238G",
+    "version": "V1.000",
+    "name": "Marvel Super Heroes Vs. Street Fighter (Kakuchou Ram Cartridge 4MB Fuzoku)",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-14402G",
+    "version": "V1.01J",
+    "name": "Gunbird",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-26402G",
+    "version": "V1.001",
+    "name": "Sonic Wings Special",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "GS-9107",
+    "version": "V1.001",
+    "name": "Fighter's History Dynamite",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-1213H",
+    "version": "V1.000",
+    "name": "Street Fighter Alpha 2",
+    "areaCode": "U",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-14320G",
+    "version": "V1.000",
+    "name": "Bomberman Wars",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-12705H",
+    "version": "V1.100",
+    "name": "Albert Odyssey - Legend of Eldean",
+    "areaCode": "U",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "MK-81073",
+    "version": "V1.004",
+    "name": "Fighters Megamix",
+    "areaCode": "U",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "MK-81041",
+    "version": "V2.000",
+    "name": "Fighting Vipers",
+    "areaCode": "K",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-7910H",
+    "version": "V1.000",
+    "name": "Tomb Raider",
+    "areaCode": "U",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-1248G",
+    "version": "V1.004",
+    "name": "Final Fight Revenge (Kakuchou Ram Cartridge 4MB Fuzoku)",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-7914H",
+    "version": "V1.000",
+    "name": "Machine Head",
+    "areaCode": "U",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-3102G",
+    "version": "V1.000",
+    "name": "Garou Densetsu 3 ~Harukanaru Tatakai~",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-4507G",
+    "version": "V1.002",
+    "name": "Grandia",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-9509G",
+    "version": "V2.000",
+    "name": "GradiU Deluxe Pack",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-8119H",
+    "version": "V1.000",
+    "name": "Iron Man X-O Manowar in Heavy Metal",
+    "areaCode": "U",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-1215G",
+    "version": "V1.003",
+    "name": "Marvel Super Heroes",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-3111G",
+    "version": "V1.002",
+    "name": "Metal Slug",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-8103H",
+    "version": "V1.000",
+    "name": "Mortal Kombat II",
+    "areaCode": "U",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "MK-81213",
+    "version": "V1.001",
+    "name": "Daytona UA Championship Circuit Edition",
+    "areaCode": "K",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "MK-81057",
+    "version": "V1.001",
+    "name": "Die Hard Arcade",
+    "areaCode": "U",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "MK-81123",
+    "version": "V1.001",
+    "name": "Sega Worldwide Soccer '98 Club Edition",
+    "areaCode": "E",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-1302H",
+    "version": "V1.000",
+    "name": "Minnesota Fats - Pool Legend",
+    "areaCode": "U",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "MK-81015",
+    "version": "V1.001",
+    "name": "Virtua Cop Special Pack",
+    "areaCode": "K",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-13303G",
+    "version": "V1.300",
+    "name": "Kidou Senshi Gundam",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-8107H",
+    "version": "V1.000",
+    "name": "Revolution X - MUic is the Weapon",
+    "areaCode": "U",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-14423G",
+    "version": "V1.000",
+    "name": "Sol Divide",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-3119G",
+    "version": "V1.002",
+    "name": "Real Bout Garou Densetsu Special (Kakuchou Ram Cartridge-tsuki Okaidoku Set!!)",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-9520G",
+    "version": "V1.010",
+    "name": "Salamander Deluxe Pack PlU",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-3104G",
+    "version": "V1.009",
+    "name": "Samurai Spirits Zankurou MUouken (Kakuchou Ram Cartridge-tsuki Okaidoku Set!!)",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "MK-81043",
+    "version": "V1.000",
+    "name": "Virtua Cop 2",
+    "areaCode": "K",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-8133H",
+    "version": "V1.002",
+    "name": "Striker '96",
+    "areaCode": "U",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-31601G",
+    "version": "V1.003",
+    "name": "Zero Divide ~The Final Conflict~",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "MK-81803",
+    "version": "V1.001",
+    "name": "Burning Rangers",
+    "areaCode": "U",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-23501G",
+    "version": "V1.000",
+    "name": "Solo Crisis",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "GS-9023",
+    "version": "V1.000",
+    "name": "X JAPAN Virtual Shock 001",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-8108H",
+    "version": "V1.000",
+    "name": "X-Men Children of the Atom",
+    "areaCode": "U",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-1232G",
+    "version": "V1.002",
+    "name": "Capcom Generation ~Dai-1-shuu Gekitsuiou no Jidai~",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-1233G",
+    "version": "V1.003",
+    "name": "Capcom Generation ~Dai-2-shuu Makai to Kishi~",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-1234G",
+    "version": "V1.001",
+    "name": "Capcom Generation ~Dai-3-shuu Koko ni Rekishi Hajimaru~",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-1235G",
+    "version": "V1.000",
+    "name": "Capcom Generation ~Dai-4-shuu Kokou no Eiyuu~",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-10001G",
+    "version": "V1.000",
+    "name": "In The Hunt",
+    "areaCode": "E",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "MK-81067",
+    "version": "V1.001",
+    "name": "Christmas Nights Into Dreams...",
+    "areaCode": "U",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "MK-81302",
+    "version": "V1.002",
+    "name": "The Legend of Oasis",
+    "areaCode": "U",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "MK-81079",
+    "version": "V1.004",
+    "name": "Sonic Jam",
+    "areaCode": "U",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "MK-81062",
+    "version": "V1.000",
+    "name": "Sonic 3D Blast",
+    "areaCode": "U",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "GS-9110",
+    "version": "V1.102",
+    "name": "",
+    "areaCode": "",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-3116G",
+    "version": "V1.001",
+    "name": "OutRun",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-20701G",
+    "version": "V1.000",
+    "name": "Thunder Storm & Road Blaster",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-13302G",
+    "version": "V1.025",
+    "name": "Dragon Ball Z Shinbutouden",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "MK-81016",
+    "version": "V1.000",
+    "name": "Mr. Bones",
+    "areaCode": "U",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "MK-81082",
+    "version": "V1.000",
+    "name": "Shinobi-X",
+    "areaCode": "E",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-1221H",
+    "version": "V1.002",
+    "name": "Resident Evil",
+    "areaCode": "U",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-3105G",
+    "version": "V1.004",
+    "name": "Real Bout Garou Densetsu",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-8105H",
+    "version": "V1.003",
+    "name": "Street Fighter The Movie",
+    "areaCode": "U",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-1204G",
+    "version": "V1.003",
+    "name": "Street Fighter II Movie",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-1216H",
+    "version": "V1.000",
+    "name": "Mega Man 8 - Anniversary Collector's Edition",
+    "areaCode": "U",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-19903G",
+    "version": "V1.002",
+    "name": "Elevator Action² Returns",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-14410G",
+    "version": "V1.002",
+    "name": "Sengoku Blade",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-10627G",
+    "version": "V1.000",
+    "name": "Battle Garegga",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-1810G",
+    "version": "V1.003",
+    "name": "Blast Wind",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-8116H",
+    "version": "V1.000",
+    "name": "Galactic Attack",
+    "areaCode": "U",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-1504H",
+    "version": "V1.002",
+    "name": "Galaxy Fight",
+    "areaCode": "U",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-7008G",
+    "version": "V1.001",
+    "name": "Gekirindan ~Time Travel Shooting~",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-7025H",
+    "version": "V1.000",
+    "name": "Grid Runner",
+    "areaCode": "U",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-1244G",
+    "version": "V1.000",
+    "name": "Street Fighter Zero 2' (Satakore)",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-17701G",
+    "version": "V1.000",
+    "name": "Rayman",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-4804G",
+    "version": "V1.004",
+    "name": "Shinrei Jusatsushi Taroumaru",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-14412G",
+    "version": "V1.001",
+    "name": "Touge King the Spirits 2",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-31103H",
+    "version": "V1.001",
+    "name": "Bust-A-Move 3",
+    "areaCode": "U",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "MK-81020",
+    "version": "V1.000",
+    "name": "Nights Into Dreams...",
+    "areaCode": "K",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-1208H",
+    "version": "V1.001",
+    "name": "Night Warriors - Darkstalkers' Revenge",
+    "areaCode": "U",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "MK-081066",
+    "version": "V1.019",
+    "name": "Quake",
+    "areaCode": "U",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-20605G",
+    "version": "V1.001",
+    "name": "Batsugun",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-1809G",
+    "version": "V1.001",
+    "name": "Hyper Duel",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-9501H-50",
+    "version": "V2.000",
+    "name": "Parodius",
+    "areaCode": "E",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "MK-81070",
+    "version": "V1.003",
+    "name": "Saturn Bomberman",
+    "areaCode": "U",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-1210G",
+    "version": "V1.001",
+    "name": "Rockman X3",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-12516H",
+    "version": "V1.000",
+    "name": "Tempest 2000",
+    "areaCode": "U",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-30401H",
+    "version": "V1.011",
+    "name": "Three Dirty Dwarves",
+    "areaCode": "U",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-8124H",
+    "version": "V1.000",
+    "name": "The Crow - City of Angels",
+    "areaCode": "U",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-1206G",
+    "version": "V1.003",
+    "name": "Street Fighter Zero",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-10616G",
+    "version": "V2.000",
+    "name": "Soukyuu Gurentai",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-10626G",
+    "version": "V1.000",
+    "name": "Soukyuu Gurentai Otokuyou",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "MK-81035",
+    "version": "V1.002",
+    "name": "Guardian Heroes",
+    "areaCode": "U",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "MK-81071",
+    "version": "V1.018",
+    "name": "Duke Nukem 3D",
+    "areaCode": "U",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-5009H",
+    "version": "V1.000",
+    "name": "Road & Track Presents The Need For Speed",
+    "areaCode": "U",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-5008H",
+    "version": "V1.000",
+    "name": "Road Rash",
+    "areaCode": "U",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-1314G",
+    "version": "V1.000",
+    "name": "Side Pocket 3",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-13204H",
+    "version": "V1.001",
+    "name": "Skeleton Warriors",
+    "areaCode": "U",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "MK-81207",
+    "version": "V1.006",
+    "name": "Sega Rally Championship",
+    "areaCode": "K",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "MK-81216",
+    "version": "V1.001",
+    "name": "Sega Touring Car Championship",
+    "areaCode": "U",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "GM-81004",
+    "version": "V1.017",
+    "name": "Bug!",
+    "areaCode": "U",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "MK-81004",
+    "version": "V1.019",
+    "name": "Bug!",
+    "areaCode": "E",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-8132H",
+    "version": "V1.000",
+    "name": "Bust-A-Move 2 Arcade Edition",
+    "areaCode": "U",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "MK-81200",
+    "version": "V1.000",
+    "name": "Daytona USA",
+    "areaCode": "K",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "GS-9013",
+    "version": "V1.000",
+    "name": "Daytona USA",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "MK_8120050",
+    "version": "V1.000",
+    "name": "Daytona USA",
+    "areaCode": "E",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "GS-9063",
+    "version": "V1.017",
+    "name": "Bug! ~Jump Shite, Fundzukechatte, Pecchanko~",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-14101G",
+    "version": "V1.004",
+    "name": "Kamen Rider ~Sakusen File 1~",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-8125H",
+    "version": "V1.000",
+    "name": "Space Jam",
+    "areaCode": "U",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-20612G",
+    "version": "V2.000",
+    "name": "Super Robot Taisen F Kanketsuhen",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "T-20610G",
+    "version": "V2.002",
+    "name": "Super Robot Taisen F",
+    "areaCode": "J",
+    "totalNumberOfSaves": 0
+  },
+  {
+    "productId": "MK-81802",
+    "version": "V1.000",
+    "name": "The House of the Dead",
+    "areaCode": "U",
+    "totalNumberOfSaves": 0
+  }
+]
