@@ -3669,7 +3669,7 @@
   },
   {
     "productId": "T-7019H-50",
-    "version": "",
+    "version": "V1.004",
     "name": "Earthworm Jim 2",
     "areaCode": "EU",
     "totalNumberOfSaves": 0,
@@ -3678,7 +3678,7 @@
   },
   {
     "productId": "T-10304G",
-    "version": "",
+    "version": "V1.001",
     "name": "Earthworm Jim 2",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -3687,7 +3687,7 @@
   },
   {
     "productId": "T-13203H",
-    "version": "",
+    "version": "V1.000",
     "name": "Earthworm Jim 2",
     "areaCode": "US",
     "totalNumberOfSaves": 0,
@@ -3696,7 +3696,7 @@
   },
   {
     "productId": "T-10309G",
-    "version": "",
+    "version": "V1.005",
     "name": "Eberouge",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -3705,7 +3705,7 @@
   },
   {
     "productId": "T-10315G",
-    "version": "",
+    "version": "V1.003",
     "name": "Eberouge Special ~Koi to Mahou no Gakuen Seikatsu~",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -3714,7 +3714,7 @@
   },
   {
     "productId": "T-9506G",
-    "version": "",
+    "version": "V2.000",
     "name": "Eisei Meijin",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -3723,7 +3723,7 @@
   },
   {
     "productId": "T-9516G",
-    "version": "",
+    "version": "V2.020",
     "name": "Eisei Meijin II",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -3732,7 +3732,7 @@
   },
   {
     "productId": "T-5204G",
-    "version": "",
+    "version": "V1.001",
     "name": "Eiyuu Shigan ~Gal Act Heroism~",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -3749,17 +3749,8 @@
     "_comment": "// TODO"
   },
   {
-    "productId": "T-19903G",
-    "version": "",
-    "name": "Elevator Action² Returns",
-    "areaCode": "JP",
-    "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
-    "_comment": "// TODO"
-  },
-  {
     "productId": "T-16605G",
-    "version": "",
+    "version": "V1.001",
     "name": "Elf wo Karu Mono-tachi",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -3768,8 +3759,17 @@
   },
   {
     "productId": "T-16610G",
-    "version": "",
-    "name": "Elf wo Karu Mono-tachi II",
+    "version": "V1.003",
+    "name": "Elf wo Karu Mono-tachi II (Disc 1)",
+    "areaCode": "JP",
+    "totalNumberOfSaves": 0,
+    "saveDataPatterns": [],
+    "_comment": "// TODO"
+  },
+  {
+    "productId": "T-16610G",
+    "version": "V1.004",
+    "name": "Elf wo Karu Mono-tachi II (Disc 2)",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
     "saveDataPatterns": [],
@@ -3777,7 +3777,7 @@
   },
   {
     "productId": "T-16606G",
-    "version": "",
+    "version": "V1.000",
     "name": "Elf wo Karu Mono-tachi ~Hanafuda-hen~",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -3795,7 +3795,7 @@
   },
   {
     "productId": "T-7602G",
-    "version": "",
+    "version": "V1.200",
     "name": "Emit Vol.1 ~Toki no Maigo~",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -3804,7 +3804,7 @@
   },
   {
     "productId": "T-7603G",
-    "version": "",
+    "version": "V1.000",
     "name": "Emit Vol.2 ~Inochigake no Tabi~",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -3813,7 +3813,7 @@
   },
   {
     "productId": "T-7604G",
-    "version": "",
+    "version": "V1.100",
     "name": "Emit Vol.3 ~Watashi ni Sayonara wo~",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -3822,7 +3822,7 @@
   },
   {
     "productId": "MK81076-50",
-    "version": "",
+    "version": "V1.001",
     "name": "Enemy Zero",
     "areaCode": "EU",
     "totalNumberOfSaves": 0,
@@ -3831,7 +3831,7 @@
   },
   {
     "productId": "T-30001G",
-    "version": "",
+    "version": "V1.000",
     "name": "Enemy Zero",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -3840,7 +3840,7 @@
   },
   {
     "productId": "81076",
-    "version": "",
+    "version": "V1.001",
     "name": "Enemy Zero",
     "areaCode": "US",
     "totalNumberOfSaves": 0,
@@ -3849,7 +3849,7 @@
   },
   {
     "productId": "T-30004G",
-    "version": "",
+    "version": "V1.000",
     "name": "Enemy Zero (Satakore)",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -3858,7 +3858,7 @@
   },
   {
     "productId": "T-27802G",
-    "version": "",
+    "version": "V1.002",
     "name": "Eternal Melody",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -3867,8 +3867,17 @@
   },
   {
     "productId": "T-15011G",
-    "version": "",
-    "name": "Eve Burst Error",
+    "version": "V1.000",
+    "name": "Eve Burst Error (Disc 1, 2 or 4)",
+    "areaCode": "JP",
+    "totalNumberOfSaves": 0,
+    "saveDataPatterns": [],
+    "_comment": "// TODO"
+  },
+  {
+    "productId": "T-15011G",
+    "version": "V1.001",
+    "name": "Eve Burst Error (Disc 3)",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
     "saveDataPatterns": [],
@@ -3876,7 +3885,7 @@
   },
   {
     "productId": "T-15037G",
-    "version": "",
+    "version": "V1.000",
     "name": "Eve Burst Error & Desire Value Pack",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -3894,8 +3903,17 @@
   },
   {
     "productId": "T-15022G",
-    "version": "",
-    "name": "Eve Burst Error (Genteiban)",
+    "version": "V1.000",
+    "name": "Eve Burst Error (Genteiban - Disc 1, 2 or 4)",
+    "areaCode": "JP",
+    "totalNumberOfSaves": 0,
+    "saveDataPatterns": [],
+    "_comment": "// TODO"
+  },
+  {
+    "productId": "T-15022G",
+    "version": "V1.001",
+    "name": "Eve Burst Error (Genteiban - Disc 3)",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
     "saveDataPatterns": [],
@@ -3903,8 +3921,17 @@
   },
   {
     "productId": "T-15032G",
-    "version": "",
-    "name": "Eve Burst Error (Premium Pack)",
+    "version": "V1.000",
+    "name": "Eve Burst Error (Premium Pack - Disc 1, 2 or 4)",
+    "areaCode": "JP",
+    "totalNumberOfSaves": 0,
+    "saveDataPatterns": [],
+    "_comment": "// TODO"
+  },
+  {
+    "productId": "T-15032G",
+    "version": "V1.001",
+    "name": "Eve Burst Error (Premium Pack - Disc 3)",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
     "saveDataPatterns": [],
@@ -3912,7 +3939,7 @@
   },
   {
     "productId": "T-15035G",
-    "version": "",
+    "version": "V1.000",
     "name": "Eve the Lost One",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -3930,7 +3957,7 @@
   },
   {
     "productId": "T-15041G",
-    "version": "",
+    "version": "V1.000",
     "name": "Eve the Lost One (Meltylancer Re-inforce Taikenban-tsuki)",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -3939,7 +3966,7 @@
   },
   {
     "productId": "81084-50",
-    "version": "",
+    "version": "V1.000",
     "name": "Exhumed",
     "areaCode": "EU",
     "totalNumberOfSaves": 0,
@@ -9807,11 +9834,11 @@
   },
   {
     "productId": "T-13205H",
-    "version": "",
+    "version": "V1.000",
     "name": "Powerslave",
     "areaCode": "US",
-    "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "totalNumberOfSaves": 1,
+    "saveDataPatterns": ["POWERSLAVE#"],
     "_comment": "// TODO"
   },
   {
@@ -11886,12 +11913,11 @@
   },
   {
     "productId": "T-18001G",
-    "version": "",
+    "version": "V1.003",
     "name": "Seireki 1999 ~Pharaoh no Fukkatsu~",
     "areaCode": "JP",
-    "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
-    "_comment": "// TODO"
+    "totalNumberOfSaves": 1,
+    "saveDataPatterns": ["BMG_1999___"]
   },
   {
     "productId": "T-32201G",
