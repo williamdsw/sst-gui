@@ -305,7 +305,7 @@
     "productId": "T-26804H",
     "version": "V1.010",
     "name": "Albert Odyssey Gaiden ~Legend of Eldean~",
-    "areaCode": "SK",
+    "areaCode": "KR",
     "totalNumberOfSaves": 0,
     "saveDataPatterns": [],
     "_comment": "// TODO"
@@ -2735,7 +2735,7 @@
     "productId": "MK-81213",
     "version": "V1.001",
     "name": "Daytona UA Championship Circuit Edition",
-    "areaCode": "SK",
+    "areaCode": "KR",
     "totalNumberOfSaves": 0,
     "saveDataPatterns": [],
     "_comment": "// TODO"
@@ -2744,7 +2744,7 @@
     "productId": "MK-81200",
     "version": "V1.000",
     "name": "Daytona USA",
-    "areaCode": "SK",
+    "areaCode": "KR",
     "totalNumberOfSaves": 0,
     "saveDataPatterns": [],
     "_comment": "// TODO"
@@ -2789,7 +2789,7 @@
     "productId": "GS-9501J (MK-81200-08)",
     "version": "",
     "name": "Daytona USA",
-    "areaCode": "SK",
+    "areaCode": "KR",
     "totalNumberOfSaves": 0,
     "saveDataPatterns": [],
     "_comment": "// TODO"
@@ -2825,7 +2825,7 @@
     "productId": "GS-9614J (MK-81213-08 / MK-81044-08)",
     "version": "",
     "name": "Daytona USA Championship Circuit Edition",
-    "areaCode": "SK",
+    "areaCode": "KR",
     "totalNumberOfSaves": 0,
     "saveDataPatterns": [],
     "_comment": "// TODO"
@@ -4265,7 +4265,7 @@
     "productId": "MK-81041",
     "version": "V2.000",
     "name": "Fighting Vipers",
-    "areaCode": "SK",
+    "areaCode": "KR",
     "totalNumberOfSaves": 0,
     "saveDataPatterns": [],
     "_comment": "// TODO"
@@ -4292,7 +4292,7 @@
     "productId": "GS-9610J (MK-81041-08)",
     "version": "",
     "name": "Fighting Vipers",
-    "areaCode": "SK",
+    "areaCode": "KR",
     "totalNumberOfSaves": 0,
     "saveDataPatterns": [],
     "_comment": "// TODO"
@@ -5892,7 +5892,7 @@
   },
   {
     "productId": "GS-9179",
-    "version": "",
+    "version": "V1.000",
     "name": "I Love Mickey Mouse ~Fushigi no Oshiro Daibouken~ / I Love Donald Duck ~Georgia Ou no Hihou~",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -5901,7 +5901,7 @@
   },
   {
     "productId": "T-1208G",
-    "version": "",
+    "version": "V1.001",
     "name": "Ide Yousuke Meijin no Shin Jissen Maajan",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -5910,8 +5910,17 @@
   },
   {
     "productId": "T-5705G",
-    "version": "",
-    "name": "Idol Janshi Suchie-Pai II",
+    "version": "V1.001",
+    "name": "Idol Janshi Suchie-Pai II (Disc 1)",
+    "areaCode": "JP",
+    "totalNumberOfSaves": 0,
+    "saveDataPatterns": [],
+    "_comment": "// TODO"
+  },
+  {
+    "productId": "T-5705G",
+    "version": "V1.000",
+    "name": "Idol Janshi Suchie-Pai II (Disc 2)",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
     "saveDataPatterns": [],
@@ -5919,8 +5928,26 @@
   },
   {
     "productId": "T-5716G",
-    "version": "",
-    "name": "Idol Janshi Suchie-Pai Mecha Genteiban ~Hatsubai 5 Shuunen Toku Package~",
+    "version": "V1.000",
+    "name": "Idol Janshi Suchie-Pai Mecha Genteiban ~Hatsubai 5 Shuunen Toku Package~ (Disc 1)",
+    "areaCode": "JP",
+    "totalNumberOfSaves": 0,
+    "saveDataPatterns": [],
+    "_comment": "// TODO"
+  },
+  {
+    "productId": "T-5716G",
+    "version": "V1.002",
+    "name": "Idol Janshi Suchie-Pai Mecha Genteiban ~Hatsubai 5 Shuunen Toku Package~ (Disc 2)",
+    "areaCode": "JP",
+    "totalNumberOfSaves": 0,
+    "saveDataPatterns": [],
+    "_comment": "// TODO"
+  },
+  {
+    "productId": "T-5716G",
+    "version": "V1.001",
+    "name": "Idol Janshi Suchie-Pai Mecha Genteiban ~Hatsubai 5 Shuunen Toku Package~ (Disc 3)",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
     "saveDataPatterns": [],
@@ -5928,7 +5955,7 @@
   },
   {
     "productId": "T-5704G",
-    "version": "",
+    "version": "V1.000",
     "name": "Idol Janshi Suchie-Pai Remix",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -5937,7 +5964,7 @@
   },
   {
     "productId": "T-5717G",
-    "version": "",
+    "version": "V1.000",
     "name": "Idol Janshi Suchie-Pai Secret Album",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -5946,7 +5973,7 @@
   },
   {
     "productId": "T-5701G",
-    "version": "",
+    "version": "V1.001",
     "name": "Idol Janshi Suchie-Pai Special",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -5955,7 +5982,7 @@
   },
   {
     "productId": "T-16702G",
-    "version": "",
+    "version": "V1.000",
     "name": "Idol Maajan Final Romance 2",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -5964,7 +5991,7 @@
   },
   {
     "productId": "T-3003G",
-    "version": "",
+    "version": "V1.060",
     "name": "Idol Maajan Final Romance 4",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -5973,7 +6000,7 @@
   },
   {
     "productId": "T-16703G",
-    "version": "",
+    "version": "V1.000",
     "name": "Idol Maajan Final Romance R",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -5982,7 +6009,7 @@
   },
   {
     "productId": "T-16705G",
-    "version": "",
+    "version": "V1.000",
     "name": "Idol Maajan Final Romance R Premium Package",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -5991,7 +6018,7 @@
   },
   {
     "productId": "T-26110G",
-    "version": "",
+    "version": "V1.010",
     "name": "ImageFight & XMultiply Arcade Gears",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6000,7 +6027,7 @@
   },
   {
     "productId": "T-6010H-50",
-    "version": "",
+    "version": "V1.200",
     "name": "Impact Racing",
     "areaCode": "EU",
     "totalNumberOfSaves": 0,
@@ -6009,7 +6036,7 @@
   },
   {
     "productId": "T-7307G",
-    "version": "",
+    "version": "V1.002",
     "name": "Impact Racing",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6020,14 +6047,14 @@
     "productId": "T-26806H-08",
     "version": "",
     "name": "Impact Racing",
-    "areaCode": "SK",
+    "areaCode": "KR",
     "totalNumberOfSaves": 0,
     "saveDataPatterns": [],
     "_comment": "// TODO"
   },
   {
     "productId": "T-8139H",
-    "version": "",
+    "version": "V1.000",
     "name": "Impact Racing",
     "areaCode": "US",
     "totalNumberOfSaves": 0,
@@ -6044,17 +6071,8 @@
     "_comment": "// TODO"
   },
   {
-    "productId": "T-10001H-50",
-    "version": "",
-    "name": "In The Hunt",
-    "areaCode": "EU",
-    "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
-    "_comment": "// TODO"
-  },
-  {
     "productId": "T-10001H",
-    "version": "",
+    "version": "V1.000",
     "name": "In The Hunt",
     "areaCode": "US",
     "totalNumberOfSaves": 0,
@@ -6063,7 +6081,7 @@
   },
   {
     "productId": "T-16104H",
-    "version": "",
+    "version": "V1.000",
     "name": "Independence Day",
     "areaCode": "US",
     "totalNumberOfSaves": 0,
@@ -6071,8 +6089,8 @@
     "_comment": "// TODO"
   },
   {
-    "productId": "T-16104H-50 (FXY)",
-    "version": "",
+    "productId": "T-16104H-50",
+    "version": "V1.000",
     "name": "Independence Day - The Game",
     "areaCode": "EU",
     "totalNumberOfSaves": 0,
@@ -6080,8 +6098,8 @@
     "_comment": "// TODO"
   },
   {
-    "productId": "MK81105-50",
-    "version": "",
+    "productId": "MK-81105-50",
+    "version": "V1.005",
     "name": "International Victory Goal",
     "areaCode": "EU",
     "totalNumberOfSaves": 0,
@@ -6090,7 +6108,7 @@
   },
   {
     "productId": "T-29602G",
-    "version": "",
+    "version": "V1.100",
     "name": "Ippatsu Gyakuten ~Gambling King he no Michi~",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6099,7 +6117,7 @@
   },
   {
     "productId": "T-22403G",
-    "version": "",
+    "version": "V1.006",
     "name": "Irem Arcade Classics",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6116,17 +6134,8 @@
     "_comment": "// TODO"
   },
   {
-    "productId": "T-8119H-50",
-    "version": "",
-    "name": "Iron Man X-O Manowar in Heavy Metal",
-    "areaCode": "EU",
-    "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
-    "_comment": "// TODO"
-  },
-  {
     "productId": "T-8115G",
-    "version": "",
+    "version": "V1.000",
     "name": "Iron Man X-O Manowar in Heavy Metal",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6134,17 +6143,8 @@
     "_comment": "// TODO"
   },
   {
-    "productId": "T-8119H",
-    "version": "",
-    "name": "Iron Man X-O Manowar in Heavy Metal",
-    "areaCode": "US",
-    "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
-    "_comment": "// TODO"
-  },
-  {
     "productId": "T-12701H",
-    "version": "",
+    "version": "V1.000",
     "name": "Iron Storm",
     "areaCode": "US",
     "totalNumberOfSaves": 0,
@@ -6153,7 +6153,7 @@
   },
   {
     "productId": "T-7645G",
-    "version": "",
+    "version": "V1.000",
     "name": "Ishin no Arashi",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6162,7 +6162,7 @@
   },
   {
     "productId": "T-18802G",
-    "version": "",
+    "version": "V1.000",
     "name": "Isto E Zico ~Zico no Kangaeru Soccer~",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6171,7 +6171,7 @@
   },
   {
     "productId": "T-5302G",
-    "version": "",
+    "version": "V0.600",
     "name": "J.B.Harold Blue Chicago Blues",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6188,17 +6188,8 @@
     "_comment": "// TODO"
   },
   {
-    "productId": "T-3602G",
-    "version": "",
-    "name": "J.League Go Go Goal!",
-    "areaCode": "JP",
-    "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
-    "_comment": "// TODO"
-  },
-  {
     "productId": "T-9528G",
-    "version": "",
+    "version": "V1.000",
     "name": "J.League Jikkyou Honoo no Striker",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6207,7 +6198,25 @@
   },
   {
     "productId": "GS-9034",
-    "version": "",
+    "version": "V1.100",
+    "name": "J.League Pro Soccer Club wo Tsukurou!",
+    "areaCode": "JP",
+    "totalNumberOfSaves": 0,
+    "saveDataPatterns": [],
+    "_comment": "// TODO"
+  },
+  {
+    "productId": "GS-9034",
+    "version": "V1.120",
+    "name": "J.League Pro Soccer Club wo Tsukurou!",
+    "areaCode": "JP",
+    "totalNumberOfSaves": 0,
+    "saveDataPatterns": [],
+    "_comment": "// TODO"
+  },
+  {
+    "productId": "GS-9034",
+    "version": "V1.110",
     "name": "J.League Pro Soccer Club wo Tsukurou!",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6216,7 +6225,16 @@
   },
   {
     "productId": "GS-9168",
-    "version": "",
+    "version": "V1.007",
+    "name": "J.League Pro Soccer Club wo Tsukurou! 2",
+    "areaCode": "JP",
+    "totalNumberOfSaves": 0,
+    "saveDataPatterns": [],
+    "_comment": "// TODO"
+  },
+  {
+    "productId": "GS-9168",
+    "version": "V1.015",
     "name": "J.League Pro Soccer Club wo Tsukurou! 2",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6225,7 +6243,7 @@
   },
   {
     "productId": "GS-9206",
-    "version": "",
+    "version": "V1.016",
     "name": "J.League Pro Soccer Club wo Tsukurou! 2 (Satakore)",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6234,7 +6252,7 @@
   },
   {
     "productId": "GS-9048",
-    "version": "",
+    "version": "V1.000",
     "name": "J.League Victory Goal '96",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6243,7 +6261,7 @@
   },
   {
     "productId": "GS-9140",
-    "version": "",
+    "version": "V1.001",
     "name": "J.League Victory Goal '97",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6252,8 +6270,17 @@
   },
   {
     "productId": "T-34601G",
-    "version": "",
-    "name": "Jantei Battle Cos-Player",
+    "version": "V1.004",
+    "name": "Jantei Battle Cos-Player (Disc 1)",
+    "areaCode": "JP",
+    "totalNumberOfSaves": 0,
+    "saveDataPatterns": [],
+    "_comment": "// TODO"
+  },
+  {
+    "productId": "T-34601G",
+    "version": "V1.000",
+    "name": "Jantei Battle Cos-Player (Disc 2)",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
     "saveDataPatterns": [],
@@ -6261,7 +6288,7 @@
   },
   {
     "productId": "T-18707G",
-    "version": "",
+    "version": "V1.000",
     "name": "Japan Super Bass Classic '96",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6270,7 +6297,7 @@
   },
   {
     "productId": "T-1503H-50",
-    "version": "",
+    "version": "V1.000",
     "name": "Jewels of the Oracle",
     "areaCode": "EU",
     "totalNumberOfSaves": 0,
@@ -6279,7 +6306,7 @@
   },
   {
     "productId": "T-9513G",
-    "version": "",
+    "version": "V1.040",
     "name": "Jikkyou Oshaberi Parodius ~Forever With Me~",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6288,7 +6315,7 @@
   },
   {
     "productId": "T-9502G",
-    "version": "",
+    "version": "V3.000",
     "name": "Jikkyou Powerful Pro Yakyuu '95 Kaimaku-ban",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6297,7 +6324,7 @@
   },
   {
     "productId": "T-9523G",
-    "version": "",
+    "version": "V1.200",
     "name": "Jikkyou Powerful Pro Yakyuu S",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6306,7 +6333,7 @@
   },
   {
     "productId": "T-2103G",
-    "version": "",
+    "version": "V1.002",
     "name": "Jikuu Tantei DD (Dracula Detective) ~Maboroshi no Lorelei~",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6315,7 +6342,7 @@
   },
   {
     "productId": "GS-9088",
-    "version": "",
+    "version": "V1.001",
     "name": "Jinzou Ningen Hakaider ~Last Judgement~",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6324,7 +6351,7 @@
   },
   {
     "productId": "T-15002G",
-    "version": "",
+    "version": "V1.001",
     "name": "Jissen Maajan",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6333,7 +6360,7 @@
   },
   {
     "productId": "T-2407G",
-    "version": "",
+    "version": "V1.003",
     "name": "Jissen Pachinko Hisshouhou! Twin",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6342,7 +6369,7 @@
   },
   {
     "productId": "T-2401G",
-    "version": "",
+    "version": "V1.000",
     "name": "Jissen Pachislot Hisshouhou! 3",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6351,7 +6378,7 @@
   },
   {
     "productId": "T-2406G",
-    "version": "",
+    "version": "V1.000",
     "name": "Jissen! Pachislot Hisshouhou! 4",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6360,7 +6387,7 @@
   },
   {
     "productId": "T-2404G",
-    "version": "",
+    "version": "V1.000",
     "name": "Jissen! Pachislot Hisshouhou! Iron Hook",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6369,7 +6396,7 @@
   },
   {
     "productId": "T-7302G",
-    "version": "",
+    "version": "V1.000",
     "name": "Johnny Bazooka",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6378,7 +6405,7 @@
   },
   {
     "productId": "T-7909H-50",
-    "version": "",
+    "version": "V1.000",
     "name": "Johnny Bazookatone",
     "areaCode": "EU",
     "totalNumberOfSaves": 0,
@@ -6387,7 +6414,7 @@
   },
   {
     "productId": "T-7909H",
-    "version": "",
+    "version": "V1.000",
     "name": "Johnny Bazookatone",
     "areaCode": "US",
     "totalNumberOfSaves": 0,
@@ -6396,7 +6423,7 @@
   },
   {
     "productId": "T-12003H-50",
-    "version": "",
+    "version": "V1.100",
     "name": "Jonah Lomu Rugby",
     "areaCode": "EU",
     "totalNumberOfSaves": 0,
@@ -6404,8 +6431,17 @@
     "_comment": "// TODO"
   },
   {
+    "productId": "T-12003H-09",
+    "version": "V1.100",
+    "name": "Jonah Lomu Rugby",
+    "areaCode": "FR",
+    "totalNumberOfSaves": 0,
+    "saveDataPatterns": [],
+    "_comment": "// TODO"
+  },
+  {
     "productId": "T-16802G",
-    "version": "",
+    "version": "V1.000",
     "name": "Joshikousei no Houkago... Pukunpa",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6414,7 +6450,7 @@
   },
   {
     "productId": "T-11403G",
-    "version": "",
+    "version": "V1.000",
     "name": "Jun Classic C.C. & Rope Club",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6423,7 +6459,7 @@
   },
   {
     "productId": "T-16607G",
-    "version": "",
+    "version": "V1.002",
     "name": "Jung Rhythm",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6432,7 +6468,7 @@
   },
   {
     "productId": "T-18008G",
-    "version": "",
+    "version": "V1.002",
     "name": "Jungle Park ~Saturn Jima~",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6441,7 +6477,7 @@
   },
   {
     "productId": "T-18009G",
-    "version": "",
+    "version": "V1.002",
     "name": "Jungle Park ~Saturn Jima~ (Gentei Special Package-ban)",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6450,7 +6486,7 @@
   },
   {
     "productId": "T-2501G",
-    "version": "",
+    "version": "V1.003",
     "name": "Juusou Kihei Leynos 2",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6459,7 +6495,7 @@
   },
   {
     "productId": "T-26102G",
-    "version": "",
+    "version": "V1.003",
     "name": "K-1 Fighting Illusion Shou",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6468,7 +6504,7 @@
   },
   {
     "productId": "T-26113G",
-    "version": "",
+    "version": "V1.003",
     "name": "K-1 Fighting Illusion Shou (Satakore)",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6477,7 +6513,7 @@
   },
   {
     "productId": "T-15006G",
-    "version": "",
+    "version": "V1.004",
     "name": "Kaitei Daisensou ~Torppedoes armed and ready!~",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6486,7 +6522,7 @@
   },
   {
     "productId": "T-28201G",
-    "version": "",
+    "version": "V1.010",
     "name": "Kaitou Saint Tail",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6495,7 +6531,7 @@
   },
   {
     "productId": "T-2104G",
-    "version": "",
+    "version": "V1.000",
     "name": "Kakinoki Shougi",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6504,7 +6540,7 @@
   },
   {
     "productId": "T-28002G",
-    "version": "",
+    "version": "V1.002",
     "name": "Kakyuusei",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6521,17 +6557,8 @@
     "_comment": "// TODO"
   },
   {
-    "productId": "T-14101G",
-    "version": "",
-    "name": "Kamen Rider ~Sakusen File 1~",
-    "areaCode": "JP",
-    "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
-    "_comment": "// TODO"
-  },
-  {
     "productId": "T-16505G",
-    "version": "",
+    "version": "V1.000",
     "name": "Kanazawa Shougi",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6540,7 +6567,16 @@
   },
   {
     "productId": "GS-9017",
-    "version": "",
+    "version": "V1.009",
+    "name": "Kanzen Chuukei Pro Yakyuu Greatest Nine",
+    "areaCode": "JP",
+    "totalNumberOfSaves": 0,
+    "saveDataPatterns": [],
+    "_comment": "// TODO"
+  },
+  {
+    "productId": "GS-9017",
+    "version": "V1.010",
     "name": "Kanzen Chuukei Pro Yakyuu Greatest Nine",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6549,7 +6585,7 @@
   },
   {
     "productId": "T-6008H-50",
-    "version": "",
+    "version": "V1.000",
     "name": "Keio Flying Squadron 2",
     "areaCode": "EU",
     "totalNumberOfSaves": 0,
@@ -6558,7 +6594,7 @@
   },
   {
     "productId": "T-6003G",
-    "version": "",
+    "version": "V1.001",
     "name": "Keiou Yuugekitai ~Katsugeki-hen~",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6567,7 +6603,7 @@
   },
   {
     "productId": "T-10502G",
-    "version": "",
+    "version": "V1.200",
     "name": "Kekkon Zenya",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6576,7 +6612,7 @@
   },
   {
     "productId": "T-10501G",
-    "version": "",
+    "version": "V1.200",
     "name": "Kekkon ~Marriage~",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6585,7 +6621,7 @@
   },
   {
     "productId": "T-30306G",
-    "version": "",
+    "version": "V1.003",
     "name": "Keriotosse!",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6594,7 +6630,7 @@
   },
   {
     "productId": "GS-9195",
-    "version": "",
+    "version": "V1.003",
     "name": "Kidou Senkan Nadesico ~The Blank of 3 Years~",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6603,7 +6639,7 @@
   },
   {
     "productId": "GS-9142",
-    "version": "",
+    "version": "V1.003",
     "name": "Kidou Senkan Nadesico ~Yappari Saigo ha [Ai ga Katsu] ?~",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6620,17 +6656,8 @@
     "_comment": "// TODO"
   },
   {
-    "productId": "T-13303G",
-    "version": "",
-    "name": "Kidou Senshi Gundam",
-    "areaCode": "JP",
-    "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
-    "_comment": "// TODO"
-  },
-  {
     "productId": "T-13329G",
-    "version": "",
+    "version": "V1.300",
     "name": "Kidou Senshi Gundam (Satakore)",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6639,7 +6666,7 @@
   },
   {
     "productId": "T-13307G",
-    "version": "",
+    "version": "V1.000",
     "name": "Kidou Senshi Gundam Gaiden I ~Senritsu no Blue~",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6648,7 +6675,7 @@
   },
   {
     "productId": "T-13306G",
-    "version": "",
+    "version": "V1.000",
     "name": "Kidou Senshi Gundam Gaiden I ~Senritsu no Blue~ (Shokai Press Tokushu Package Shiyou)",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6657,7 +6684,7 @@
   },
   {
     "productId": "T-13311G",
-    "version": "",
+    "version": "V1.000",
     "name": "Kidou Senshi Gundam Gaiden II ~Ao wo Uketsugu Mono~",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6666,7 +6693,7 @@
   },
   {
     "productId": "T-13309G",
-    "version": "",
+    "version": "V1.000",
     "name": "Kidou Senshi Gundam Gaiden II ~Ao wo Uketsugu Mono~ (Genteiban)",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6684,7 +6711,7 @@
   },
   {
     "productId": "T-13312G",
-    "version": "",
+    "version": "V1.000",
     "name": "Kidou Senshi Gundam Gaiden III ~Sabakareshi Mono~ (Genteiban)",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6693,7 +6720,7 @@
   },
   {
     "productId": "T-13318G",
-    "version": "",
+    "version": "V1.001",
     "name": "Kidou Senshi Gundam Gaiden ~The Blue Destiny~",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6702,7 +6729,7 @@
   },
   {
     "productId": "T-13330G",
-    "version": "",
+    "version": "V1.003",
     "name": "Kidou Senshi Gundam Gihren no Yabou",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6711,7 +6738,7 @@
   },
   {
     "productId": "T-13327G",
-    "version": "",
+    "version": "V1.003",
     "name": "Kidou Senshi Gundam Gihren no Yabou (Shokai Genteiban)",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6720,7 +6747,7 @@
   },
   {
     "productId": "T-13333G",
-    "version": "",
+    "version": "V1.000",
     "name": "Kidou Senshi Gundam Gihren no Yabou Kouryaku Shireisho",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6729,7 +6756,7 @@
   },
   {
     "productId": "T-13320G",
-    "version": "",
+    "version": "V1.000",
     "name": "Kidou Senshi Z Gundam ~Kouhen Sora wo Kakeru~",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6738,7 +6765,7 @@
   },
   {
     "productId": "T-13315G",
-    "version": "",
+    "version": "V1.002",
     "name": "Kidou Senshi Z Gundam ~Zenpen Zeta no Kodou~",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6747,7 +6774,7 @@
   },
   {
     "productId": "T-14315G",
-    "version": "",
+    "version": "V1.002",
     "name": "Kindaichi Shounen no Jikenbo ~Hoshimitou Kanashimi no Fukushuuki~",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -8432,7 +8459,7 @@
     "productId": "T-26801H-08",
     "version": "",
     "name": "Myst",
-    "areaCode": "SK",
+    "areaCode": "KR",
     "totalNumberOfSaves": 0,
     "saveDataPatterns": [],
     "_comment": "// TODO"
@@ -8774,7 +8801,7 @@
     "productId": "T-7012G (SK) (T-7012G)",
     "version": "",
     "name": "NHL Powerplay '96",
-    "areaCode": "SK",
+    "areaCode": "KR",
     "totalNumberOfSaves": 0,
     "saveDataPatterns": [],
     "_comment": "// TODO"
@@ -8990,7 +9017,7 @@
     "productId": "MK-81020",
     "version": "V1.000",
     "name": "Nights Into Dreams...",
-    "areaCode": "SK",
+    "areaCode": "KR",
     "totalNumberOfSaves": 0,
     "saveDataPatterns": [],
     "_comment": "// TODO"
@@ -9017,7 +9044,7 @@
     "productId": "GS-9608J (MK-81020-08)",
     "version": "",
     "name": "Nights Into Dreams...",
-    "areaCode": "SK",
+    "areaCode": "KR",
     "totalNumberOfSaves": 0,
     "saveDataPatterns": [],
     "_comment": "// TODO"
@@ -9044,7 +9071,7 @@
     "productId": "GS-9608J2",
     "version": "",
     "name": "Nights Into Dreams... (Teugbyeol Hanjeongpan Samsung Multi Pad Set)",
-    "areaCode": "SK",
+    "areaCode": "KR",
     "totalNumberOfSaves": 0,
     "saveDataPatterns": [],
     "_comment": "// TODO"
@@ -9375,7 +9402,7 @@
   },
   {
     "productId": "T-1511G",
-    "version": "",
+    "version": "V1.004",
     "name": "Oracle no Houseki",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -9557,7 +9584,7 @@
     "productId": "GS-9502J (MK-81009-08)",
     "version": "",
     "name": "Panzer Dragoon",
-    "areaCode": "SK",
+    "areaCode": "KR",
     "totalNumberOfSaves": 0,
     "saveDataPatterns": [],
     "_comment": "// TODO"
@@ -11276,7 +11303,7 @@
     "productId": "T-7601H-08",
     "version": "",
     "name": "Sangokushi IV",
-    "areaCode": "SK",
+    "areaCode": "KR",
     "totalNumberOfSaves": 0,
     "saveDataPatterns": [],
     "_comment": "// TODO"
@@ -11627,7 +11654,7 @@
     "productId": "MK-81207",
     "version": "V1.006",
     "name": "Sega Rally Championship",
-    "areaCode": "SK",
+    "areaCode": "KR",
     "totalNumberOfSaves": 0,
     "saveDataPatterns": [],
     "_comment": "// TODO"
@@ -11654,7 +11681,7 @@
     "productId": "GS-9506J (MK-81207-08)",
     "version": "",
     "name": "Sega Rally Championship",
-    "areaCode": "SK",
+    "areaCode": "KR",
     "totalNumberOfSaves": 0,
     "saveDataPatterns": [],
     "_comment": "// TODO"
@@ -12346,7 +12373,7 @@
     "productId": "T-26803H-08",
     "version": "",
     "name": "Shinpi no Sekai El-Hazard",
-    "areaCode": "SK",
+    "areaCode": "KR",
     "totalNumberOfSaves": 0,
     "saveDataPatterns": [],
     "_comment": "// TODO"
@@ -15748,7 +15775,7 @@
     "productId": "MK-81043",
     "version": "V1.000",
     "name": "Virtua Cop 2",
-    "areaCode": "SK",
+    "areaCode": "KR",
     "totalNumberOfSaves": 0,
     "saveDataPatterns": [],
     "_comment": "// TODO"
@@ -15775,7 +15802,7 @@
     "productId": "GS-9613J (MK-81043-08)",
     "version": "",
     "name": "Virtua Cop 2",
-    "areaCode": "SK",
+    "areaCode": "KR",
     "totalNumberOfSaves": 0,
     "saveDataPatterns": [],
     "_comment": "// TODO"
@@ -15784,7 +15811,7 @@
     "productId": "MK-81043-08",
     "version": "",
     "name": "Virtua Cop 2",
-    "areaCode": "SK",
+    "areaCode": "KR",
     "totalNumberOfSaves": 0,
     "saveDataPatterns": [],
     "_comment": "// TODO"
@@ -15820,7 +15847,7 @@
     "productId": "MK-81015",
     "version": "V1.001",
     "name": "Virtua Cop Special Pack",
-    "areaCode": "SK",
+    "areaCode": "KR",
     "totalNumberOfSaves": 0,
     "saveDataPatterns": [],
     "_comment": "// TODO"
@@ -15838,7 +15865,7 @@
     "productId": "GS-9505J (MK-81015-08)",
     "version": "",
     "name": "Virtua Cop Special Pack",
-    "areaCode": "SK",
+    "areaCode": "KR",
     "totalNumberOfSaves": 0,
     "saveDataPatterns": [],
     "_comment": "// TODO"
@@ -15901,7 +15928,7 @@
     "productId": "GS-9507J (MK-81014-08)",
     "version": "",
     "name": "Virtua Fighter 2",
-    "areaCode": "SK",
+    "areaCode": "KR",
     "totalNumberOfSaves": 0,
     "saveDataPatterns": [],
     "_comment": "// TODO"
@@ -16036,7 +16063,7 @@
     "productId": "GS-9609J (MK-81049-08)",
     "version": "",
     "name": "Virtua Fighter Kids",
-    "areaCode": "SK",
+    "areaCode": "KR",
     "totalNumberOfSaves": 0,
     "saveDataPatterns": [],
     "_comment": "// TODO"
@@ -16081,7 +16108,7 @@
     "productId": "GS-9503J (MK-81023-08)",
     "version": "",
     "name": "Virtua Fighter Remix",
-    "areaCode": "SK",
+    "areaCode": "KR",
     "totalNumberOfSaves": 0,
     "saveDataPatterns": [],
     "_comment": "// TODO"
@@ -16306,7 +16333,7 @@
     "productId": "GS-9612J (MK-81042-08)",
     "version": "",
     "name": "Virtual-On - Cyber Troopers",
-    "areaCode": "SK",
+    "areaCode": "KR",
     "totalNumberOfSaves": 0,
     "saveDataPatterns": [],
     "_comment": "// TODO"
@@ -16315,7 +16342,7 @@
     "productId": "MK-81042-08",
     "version": "",
     "name": "Virtual-On - Cyber Troopers",
-    "areaCode": "SK",
+    "areaCode": "KR",
     "totalNumberOfSaves": 0,
     "saveDataPatterns": [],
     "_comment": "// TODO"
@@ -16835,7 +16862,7 @@
   },
   {
     "productId": "GS-9025",
-    "version": "",
+    "version": "V1.000",
     "name": "World Advanced Daisenryaku ~Koutetsu no Senpuu~",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -16936,7 +16963,7 @@
     "productId": "MK-81127-08",
     "version": "",
     "name": "World Series Baseball '98",
-    "areaCode": "SK",
+    "areaCode": "KR",
     "totalNumberOfSaves": 0,
     "saveDataPatterns": [],
     "_comment": "// TODO"
@@ -16987,17 +17014,17 @@
     "_comment": "// TODO"
   },
   {
-    "productId": "GS-9504J (MK-81105-08)",
-    "version": "",
+    "productId": "MK-81105-08",
+    "version": "V1.002",
     "name": "Worldwide Soccer - Sega International Victory Goal Edition",
-    "areaCode": "SK",
+    "areaCode": "KR",
     "totalNumberOfSaves": 0,
     "saveDataPatterns": [],
     "_comment": "// TODO"
   },
   {
     "productId": "81105",
-    "version": "",
+    "version": "V1.002",
     "name": "Worldwide Soccer - Sega International Victory Goal Edition",
     "areaCode": "US",
     "totalNumberOfSaves": 0,
