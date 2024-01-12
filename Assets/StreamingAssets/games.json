@@ -9330,7 +9330,7 @@
   },
   {
     "productId": "T-1508G",
-    "version": "",
+    "version": "V1.005",
     "name": "O-chan no Oekaki Logic",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -9339,7 +9339,7 @@
   },
   {
     "productId": "T-9108G",
-    "version": "",
+    "version": "V1.090",
     "name": "Ochige Designer Tsukutte pon!",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -9348,7 +9348,7 @@
   },
   {
     "productId": "T-15908H-50",
-    "version": "",
+    "version": "V1.000",
     "name": "Off-World Interceptor Extreme",
     "areaCode": "EU",
     "totalNumberOfSaves": 0,
@@ -9357,7 +9357,7 @@
   },
   {
     "productId": "T-15901G",
-    "version": "",
+    "version": "V1.000",
     "name": "Off-World Interceptor Extreme",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -9366,7 +9366,7 @@
   },
   {
     "productId": "T-15908H",
-    "version": "",
+    "version": "V1.000",
     "name": "Off-World Interceptor Extreme",
     "areaCode": "US",
     "totalNumberOfSaves": 0,
@@ -9375,7 +9375,7 @@
   },
   {
     "productId": "T-27803G",
-    "version": "",
+    "version": "V1.005",
     "name": "Ojousama Tokkyuu",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -9384,7 +9384,7 @@
   },
   {
     "productId": "T-38101G",
-    "version": "",
+    "version": "V1.002",
     "name": "Ojousama wo Nerae!!",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -9392,8 +9392,17 @@
     "_comment": "// TODO"
   },
   {
+    "productId": "T-38101G",
+    "version": "V1.003",
+    "name": "Ojousama wo Nerae!! (Alt)",
+    "areaCode": "JP",
+    "totalNumberOfSaves": 0,
+    "saveDataPatterns": [],
+    "_comment": "// TODO"
+  },
+  {
     "productId": "T-26001G",
-    "version": "",
+    "version": "V1.310",
     "name": "Okudera Yasuhiko no Sekai wo Mezase! Soccer Kids ~ Nyuumon-hen",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -9402,7 +9411,7 @@
   },
   {
     "productId": "T-7904H-18",
-    "version": "",
+    "version": "V2.000",
     "name": "Olympic Soccer",
     "areaCode": "DE",
     "totalNumberOfSaves": 0,
@@ -9410,8 +9419,17 @@
     "_comment": "// TODO"
   },
   {
+    "productId": "T-7904H-50",
+    "version": "V2.000",
+    "name": "Olympic Soccer",
+    "areaCode": "EU",
+    "totalNumberOfSaves": 0,
+    "saveDataPatterns": [],
+    "_comment": "// TODO"
+  },
+  {
     "productId": "T-7304G",
-    "version": "",
+    "version": "V1.002",
     "name": "Olympic Soccer",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -9429,7 +9447,7 @@
   },
   {
     "productId": "GS-9030",
-    "version": "",
+    "version": "V1.002",
     "name": "Omakase! Savers",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -9438,7 +9456,7 @@
   },
   {
     "productId": "T-9104G",
-    "version": "",
+    "version": "V1.001",
     "name": "OoEdo Renaissance",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -9456,7 +9474,7 @@
   },
   {
     "productId": "T-21904G",
-    "version": "",
+    "version": "V1.001",
     "name": "Ousama Game",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -10392,7 +10410,7 @@
   },
   {
     "productId": "MK81066-50",
-    "version": "",
+    "version": "V1.015",
     "name": "Quake",
     "areaCode": "EU",
     "totalNumberOfSaves": 0,
@@ -10401,16 +10419,16 @@
   },
   {
     "productId": "81066",
-    "version": "",
+    "version": "V1.019",
     "name": "Quake",
     "areaCode": "US",
-    "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "totalNumberOfSaves": 1,
+    "saveDataPatterns": ["LOBOQUAKE__"],
     "_comment": "// TODO"
   },
   {
     "productId": "T-18502G",
-    "version": "",
+    "version": "V1.000",
     "name": "Quantum Gate I ~Akumu no Joshou~",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -10419,7 +10437,7 @@
   },
   {
     "productId": "T-16213H",
-    "version": "",
+    "version": "V1.000",
     "name": "Quarterback Attack",
     "areaCode": "US",
     "totalNumberOfSaves": 0,
@@ -10428,7 +10446,7 @@
   },
   {
     "productId": "T-1220G",
-    "version": "",
+    "version": "V1.004",
     "name": "Quiz Nanairo Dreams Nijiirochou no Kiseki",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -10436,8 +10454,17 @@
     "_comment": "// TODO"
   },
   {
+    "productId": "T-1220G",
+    "version": "V2.001",
+    "name": "Quiz Nanairo Dreams Nijiirochou no Kiseki (Alt)",
+    "areaCode": "JP",
+    "totalNumberOfSaves": 0,
+    "saveDataPatterns": [],
+    "_comment": "// TODO"
+  },
+  {
     "productId": "T-17401G",
-    "version": "",
+    "version": "V1.05",
     "name": "QuoVadis",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -10446,7 +10473,7 @@
   },
   {
     "productId": "T-17402G",
-    "version": "",
+    "version": "V1.003",
     "name": "QuoVadis 2 ~Wakusei Kyoushuu Ovan Rei~",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -10455,7 +10482,7 @@
   },
   {
     "productId": "T-13322G",
-    "version": "",
+    "version": "V1.000",
     "name": "R?MJ The Mystery Hospital",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -10464,7 +10491,7 @@
   },
   {
     "productId": "T-10610G",
-    "version": "",
+    "version": "V1.001",
     "name": "Rabbit",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -15539,7 +15566,7 @@
   },
   {
     "productId": "MK81180-50",
-    "version": "",
+    "version": "V6.200",
     "name": "UEFA Euro 96 England",
     "areaCode": "EU",
     "totalNumberOfSaves": 0,
@@ -15557,7 +15584,7 @@
   },
   {
     "productId": "T-25403H-50",
-    "version": "",
+    "version": "V1.007",
     "name": "Ultimate Mortal Kombat 3",
     "areaCode": "EU",
     "totalNumberOfSaves": 0,
@@ -15565,17 +15592,17 @@
     "_comment": "// TODO"
   },
   {
-    "productId": "T-9701H",
-    "version": "",
-    "name": "Ultimate Mortal Kombat 3",
-    "areaCode": "US",
+    "productId": "T-25403H-50",
+    "version": "V2.000",
+    "name": "Ultimate Mortal Kombat 3 (Rev A)",
+    "areaCode": "EU",
     "totalNumberOfSaves": 0,
     "saveDataPatterns": [],
     "_comment": "// TODO"
   },
   {
     "productId": "T-25501G",
-    "version": "",
+    "version": "V1.020",
     "name": "Ultraman Zukan",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -15584,7 +15611,7 @@
   },
   {
     "productId": "T-25502G",
-    "version": "",
+    "version": "V1.000",
     "name": "Ultraman Zukan 2",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -15593,7 +15620,7 @@
   },
   {
     "productId": "T-25505G",
-    "version": "",
+    "version": "V1.000",
     "name": "Ultraman Zukan 3",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -15610,17 +15637,8 @@
     "_comment": "// TODO"
   },
   {
-    "productId": "T-13308G",
-    "version": "",
-    "name": "Ultraman ~Hikari no Kyojin Densetsu~",
-    "areaCode": "JP",
-    "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
-    "_comment": "// TODO"
-  },
-  {
     "productId": "T-35001G",
-    "version": "",
+    "version": "V1.001",
     "name": "Umanari 1 Furlong Gekijou",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -15629,7 +15647,7 @@
   },
   {
     "productId": "T-36202G",
-    "version": "",
+    "version": "V1.002",
     "name": "Universal Nuts",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -15638,7 +15656,7 @@
   },
   {
     "productId": "T-26414G",
-    "version": "",
+    "version": "V1.001",
     "name": "Uno DX",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
