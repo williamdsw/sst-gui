@@ -1275,7 +1275,7 @@
   },
   {
     "productId": "T-12504G",
-    "version": "",
+    "version": "V1.001",
     "name": "Blood Factory",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -3291,7 +3291,7 @@
   },
   {
     "productId": "MK81680-50",
-    "version": "",
+    "version": "V1.004",
     "name": "Digital Pinball",
     "areaCode": "EU",
     "totalNumberOfSaves": 0,
@@ -3300,7 +3300,7 @@
   },
   {
     "productId": "T-18901G",
-    "version": "",
+    "version": "V1.002",
     "name": "Digital Pinball Last Gladiators",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -3309,7 +3309,7 @@
   },
   {
     "productId": "T-18903G",
-    "version": "",
+    "version": "V1.003",
     "name": "Digital Pinball Last Gladiators Ver.9.7",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -4614,7 +4614,7 @@
   },
   {
     "productId": "T-8116H-50",
-    "version": "",
+    "version": "V1.000",
     "name": "Galactic Attack",
     "areaCode": "EU",
     "totalNumberOfSaves": 0,
@@ -4623,7 +4623,7 @@
   },
   {
     "productId": "T-8116H",
-    "version": "",
+    "version": "V1.000",
     "name": "Galactic Attack",
     "areaCode": "US",
     "totalNumberOfSaves": 0,
@@ -4875,7 +4875,7 @@
   },
   {
     "productId": "GS-9056",
-    "version": "",
+    "version": "V1.000",
     "name": "Gekka Mugentan Torico",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6783,7 +6783,7 @@
   },
   {
     "productId": "T-19724G",
-    "version": "",
+    "version": "V1.005",
     "name": "Kiss yori...",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6792,7 +6792,7 @@
   },
   {
     "productId": "T-19723G",
-    "version": "",
+    "version": "V1.005",
     "name": "Kiss yori... (Shokai Genteiban Original Telephone Card Doukon)",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6890,17 +6890,8 @@
     "_comment": "// TODO"
   },
   {
-    "productId": "T-25503G",
-    "version": "",
-    "name": "Koudou Saisoku Densetsu ~Kashiramoji D (Initial D)~",
-    "areaCode": "JP",
-    "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
-    "_comment": "// TODO"
-  },
-  {
     "productId": "T-26104G",
-    "version": "",
+    "version": "V1.007",
     "name": "Kouryuu Sangoku Engi",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6909,7 +6900,7 @@
   },
   {
     "productId": "T-11305H-18",
-    "version": "",
+    "version": "V1.000",
     "name": "Krazy Ivan",
     "areaCode": "DE",
     "totalNumberOfSaves": 0,
@@ -6917,8 +6908,17 @@
     "_comment": "// TODO"
   },
   {
+    "productId": "T-11305H-50",
+    "version": "V1.150",
+    "name": "Krazy Ivan",
+    "areaCode": "EU",
+    "totalNumberOfSaves": 0,
+    "saveDataPatterns": [],
+    "_comment": "// TODO"
+  },
+  {
     "productId": "T-18605G",
-    "version": "",
+    "version": "V1.000",
     "name": "Krazy Ivan",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6927,7 +6927,7 @@
   },
   {
     "productId": "T-1813G",
-    "version": "",
+    "version": "V1.001",
     "name": "Kumitate Battle Kuttu Ketto",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6936,7 +6936,7 @@
   },
   {
     "productId": "T-6803G",
-    "version": "",
+    "version": "V1.002",
     "name": "Kunoichi Torimonochou",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6945,7 +6945,7 @@
   },
   {
     "productId": "T-21204G",
-    "version": "",
+    "version": "V1.000",
     "name": "Kuro no Danshou ~The Literary Fragment~",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6954,7 +6954,7 @@
   },
   {
     "productId": "T-21203G",
-    "version": "",
+    "version": "V1.000",
     "name": "Kuro no Danshou ~The Literary Fragment~ (Genteiban)",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6963,7 +6963,7 @@
   },
   {
     "productId": "T-21803G",
-    "version": "",
+    "version": "V1.002",
     "name": "Kurubushi Kyoudai Gekijou Dai-ikkan Maajan-hen",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6972,7 +6972,7 @@
   },
   {
     "productId": "T-24201G",
-    "version": "",
+    "version": "V1.000",
     "name": "Kururin Pa!",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6981,7 +6981,7 @@
   },
   {
     "productId": "T-14303G",
-    "version": "",
+    "version": "V1.000",
     "name": "Kuusou Kagaku Sekai Gulliver Boy",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6990,7 +6990,7 @@
   },
   {
     "productId": "T-18715G",
-    "version": "",
+    "version": "V1.000",
     "name": "Kyuukyoku Tiger II Plus",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -6999,7 +6999,7 @@
   },
   {
     "productId": "T-1801G",
-    "version": "",
+    "version": "V1.005",
     "name": "Kyuutenkai",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -7008,7 +7008,7 @@
   },
   {
     "productId": "T-2507G",
-    "version": "",
+    "version": "V1.003",
     "name": "Langrisser Dramatic Edition",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -7017,7 +7017,7 @@
   },
   {
     "productId": "T-2502G",
-    "version": "",
+    "version": "V1.000",
     "name": "Langrisser III",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -7026,7 +7026,7 @@
   },
   {
     "productId": "T-2510G",
-    "version": "",
+    "version": "V1.010",
     "name": "Langrisser III (Satakore)",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -7035,7 +7035,7 @@
   },
   {
     "productId": "T-2504G",
-    "version": "",
+    "version": "V1.000",
     "name": "Langrisser III (Shokai Genteiban)",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -7044,7 +7044,7 @@
   },
   {
     "productId": "T-2506G",
-    "version": "",
+    "version": "V1.005",
     "name": "Langrisser IV",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -7053,7 +7053,7 @@
   },
   {
     "productId": "T-2512G",
-    "version": "",
+    "version": "V1.005",
     "name": "Langrisser IV (Satakore)",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -7062,7 +7062,7 @@
   },
   {
     "productId": "T-2505G",
-    "version": "",
+    "version": "V1.005",
     "name": "Langrisser IV (Special Package)",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -7071,8 +7071,35 @@
   },
   {
     "productId": "T-2513G",
-    "version": "",
-    "name": "Langrisser Tribute",
+    "version": "V1.003",
+    "name": "Langrisser Tribute (Disc 1)",
+    "areaCode": "JP",
+    "totalNumberOfSaves": 0,
+    "saveDataPatterns": [],
+    "_comment": "// TODO"
+  },
+  {
+    "productId": "T-2513G",
+    "version": "V1.010",
+    "name": "Langrisser Tribute (Disc 2)",
+    "areaCode": "JP",
+    "totalNumberOfSaves": 0,
+    "saveDataPatterns": [],
+    "_comment": "// TODO"
+  },
+  {
+    "productId": "T-2513G",
+    "version": "V1.005",
+    "name": "Langrisser Tribute (Disc 3)",
+    "areaCode": "JP",
+    "totalNumberOfSaves": 0,
+    "saveDataPatterns": [],
+    "_comment": "// TODO"
+  },
+  {
+    "productId": "T-2513G",
+    "version": "V1.004",
+    "name": "Langrisser Tribute (Disc 4)",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
     "saveDataPatterns": [],
@@ -7080,7 +7107,7 @@
   },
   {
     "productId": "T-2509G",
-    "version": "",
+    "version": "V1.004",
     "name": "Langrisser V ~The End of Legend~",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -7089,7 +7116,7 @@
   },
   {
     "productId": "MK81078-50",
-    "version": "",
+    "version": "V1.001",
     "name": "Last Bronx",
     "areaCode": "EU",
     "totalNumberOfSaves": 0,
@@ -7098,8 +7125,17 @@
   },
   {
     "productId": "GS-9152",
-    "version": "",
-    "name": "Last Bronx",
+    "version": "V1.112",
+    "name": "Last Bronx (Disc 1)",
+    "areaCode": "JP",
+    "totalNumberOfSaves": 0,
+    "saveDataPatterns": [],
+    "_comment": "// TODO"
+  },
+  {
+    "productId": "GS-9152",
+    "version": "V1.113",
+    "name": "Last Bronx (Disc 2)",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
     "saveDataPatterns": [],
@@ -7116,7 +7152,7 @@
   },
   {
     "productId": "T-4804H",
-    "version": "",
+    "version": "V1.000",
     "name": "Last Gladiators - Digital Pinball",
     "areaCode": "US",
     "totalNumberOfSaves": 0,
@@ -7125,7 +7161,7 @@
   },
   {
     "productId": "T-1101G",
-    "version": "",
+    "version": "V1.001",
     "name": "Layer Section",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -7134,7 +7170,7 @@
   },
   {
     "productId": "T-1112G",
-    "version": "",
+    "version": "V1.002",
     "name": "Layer Section (Satakore)",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -7143,7 +7179,7 @@
   },
   {
     "productId": "T-26409G",
-    "version": "",
+    "version": "V1.000",
     "name": "Layer Section II",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -7152,7 +7188,7 @@
   },
   {
     "productId": "T-7503G",
-    "version": "",
+    "version": "V1.003",
     "name": "Legend of K-1 Grand Prix '96",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -7170,7 +7206,7 @@
   },
   {
     "productId": "T-26411G",
-    "version": "",
+    "version": "V1.003",
     "name": "Lifescape 2 Body Bionics ~Kyoui no Shouuchuu Jintai~",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -7179,8 +7215,17 @@
   },
   {
     "productId": "T-26405G",
-    "version": "",
-    "name": "Lifescape Seimei 40-okunen Harukana Tabi",
+    "version": "V1.004",
+    "name": "Lifescape Seimei 40-okunen Harukana Tabi (Disc 1)",
+    "areaCode": "JP",
+    "totalNumberOfSaves": 0,
+    "saveDataPatterns": [],
+    "_comment": "// TODO"
+  },
+  {
+    "productId": "T-26405G",
+    "version": "V1.005",
+    "name": "Lifescape Seimei 40-okunen Harukana Tabi (Disc 2)",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
     "saveDataPatterns": [],
@@ -7188,7 +7233,7 @@
   },
   {
     "productId": "T-2112G",
-    "version": "",
+    "version": "V1.002",
     "name": "Linda³ Kanzenban",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -7197,7 +7242,7 @@
   },
   {
     "productId": "GS-9055",
-    "version": "",
+    "version": "V1.05",
     "name": "Linkle Liver Story",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -7206,7 +7251,7 @@
   },
   {
     "productId": "T-12301H-50",
-    "version": "",
+    "version": "V1.001",
     "name": "Loaded",
     "areaCode": "EU",
     "totalNumberOfSaves": 0,
@@ -7215,7 +7260,7 @@
   },
   {
     "productId": "T-12519H",
-    "version": "",
+    "version": "V1.000",
     "name": "Loaded",
     "areaCode": "US",
     "totalNumberOfSaves": 0,
@@ -7224,7 +7269,7 @@
   },
   {
     "productId": "T-25103G",
-    "version": "",
+    "version": "V1.000",
     "name": "Lode Runner Extra",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -7233,7 +7278,7 @@
   },
   {
     "productId": "T-25101G",
-    "version": "",
+    "version": "V1.000",
     "name": "Lode Runner ~The Legend Returns~",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -7242,7 +7287,7 @@
   },
   {
     "productId": "T-4303G",
-    "version": "",
+    "version": "V1.003",
     "name": "Logic Puzzle Rainbow Town",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -7251,7 +7296,7 @@
   },
   {
     "productId": "T-12521H-50",
-    "version": "",
+    "version": "V1.100",
     "name": "Lost Vikings 2 - Norse by Norsewest",
     "areaCode": "EU",
     "totalNumberOfSaves": 0,
@@ -7260,7 +7305,7 @@
   },
   {
     "productId": "T-5801G",
-    "version": "",
+    "version": "V1.002",
     "name": "Lovely Pop 2 In 1 Jan Jan Koi Shimasho",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -7269,7 +7314,7 @@
   },
   {
     "productId": "T-5802G",
-    "version": "",
+    "version": "V1.002",
     "name": "Lovely Pop 2 In 1 Jan Jan Koi Shimasho (Genteiban)",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -7278,7 +7323,7 @@
   },
   {
     "productId": "GS-9118",
-    "version": "",
+    "version": "V1.013",
     "name": "LuLu ~Un Conte Interactif de Romain Victor-Pujebet~",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -7287,7 +7332,7 @@
   },
   {
     "productId": "T-14403H",
-    "version": "",
+    "version": "V1.002",
     "name": "Lunacy",
     "areaCode": "US",
     "totalNumberOfSaves": 0,
@@ -7296,7 +7341,7 @@
   },
   {
     "productId": "T-27906G",
-    "version": "",
+    "version": "V1.002",
     "name": "Lunar 2 Eternal Blue",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -7305,7 +7350,7 @@
   },
   {
     "productId": "T-27901G",
-    "version": "",
+    "version": "V1.05",
     "name": "Lunar Silver Star Story",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -7314,7 +7359,7 @@
   },
   {
     "productId": "T-27904G",
-    "version": "",
+    "version": "V1.00",
     "name": "Lunar Silver Star Story MPEG-ban",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -7323,7 +7368,7 @@
   },
   {
     "productId": "T-18805G",
-    "version": "",
+    "version": "V1.400",
     "name": "Lupin the 3rd Chronicles (Lupin + Fujiko Version)",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -7332,7 +7377,7 @@
   },
   {
     "productId": "T-18806G",
-    "version": "",
+    "version": "V1.400",
     "name": "Lupin the 3rd Chronicles (Lupin + Jigen + Goemon Version)",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -7341,7 +7386,7 @@
   },
   {
     "productId": "T-18804G",
-    "version": "",
+    "version": "V1.400",
     "name": "Lupin the 3rd Chronicles (Lupin Version)",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -7350,7 +7395,7 @@
   },
   {
     "productId": "T-2004G",
-    "version": "",
+    "version": "V1.000",
     "name": "Lupin the 3rd ~Pyramid no Kenja~",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -7359,7 +7404,7 @@
   },
   {
     "productId": "T-18801G",
-    "version": "",
+    "version": "V1.04",
     "name": "Lupin the 3rd ~The Master File~",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -15305,7 +15350,7 @@
   },
   {
     "productId": "MK81053-50",
-    "version": "",
+    "version": "V1.002",
     "name": "Torico",
     "areaCode": "EU",
     "totalNumberOfSaves": 0,
