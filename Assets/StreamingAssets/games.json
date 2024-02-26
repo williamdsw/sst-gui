@@ -5,7 +5,7 @@
     "name": "2Tax Gold",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["NITAX_GOLD0"],
     "_comment": "// TODO"
   },
   {
@@ -66,7 +66,7 @@
     "name": "3D Mission Shooting Finalist",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["FINALIST___"],
     "_comment": "// TODO"
   },
   {
@@ -75,7 +75,7 @@
     "name": "3x3 Eyes ~Kyuusei Koushu~ S",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["S3X3EYES_01"],
     "_comment": "// TODO"
   },
   {
@@ -84,7 +84,7 @@
     "name": "6 Inch My Darling",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["INCH_6_D_00", "INCH_6_D_01"],
     "_comment": "// TODO"
   },
   {
@@ -102,7 +102,7 @@
     "name": "AI Shougi",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["AISHOGI_001"],
     "_comment": "// TODO"
   },
   {
@@ -174,7 +174,7 @@
     "name": "Actua Soccer Club Edition",
     "areaCode": "EU",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["CLUBSOCC_01"],
     "_comment": "// TODO"
   },
   {
@@ -370,7 +370,7 @@
     "name": "Alien Trilogy",
     "areaCode": "US",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["ALIENTRILGY"],
     "_comment": "// TODO"
   },
   {
@@ -379,7 +379,7 @@
     "name": "All-Star Baseball '97 Featuring Frank Thomas",
     "areaCode": "US",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["ALLSTAR97C_"],
     "_comment": "// TODO"
   },
   {
@@ -397,7 +397,7 @@
     "name": "Alone in the Dark - One Eyed Jack's Revenge",
     "areaCode": "US",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["AITD2SAT_00"],
     "_comment": "// TODO"
   },
   {
@@ -478,7 +478,7 @@
     "name": "Angel Graffiti S ~Anata he no Profile~",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["ANGEL_GR_00"],
     "_comment": "// TODO"
   },
   {
@@ -487,7 +487,7 @@
     "name": "Angel Paradise Vol.1 Sakaki Yuko ~Koi no Yokan in Hollywood~",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["ANGEL___001"],
     "_comment": "// TODO"
   },
   {
@@ -496,7 +496,7 @@
     "name": "Angel Paradise Vol.2 Yoshino Kimika ~Isshoni I-ta-i in Hawaii~",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["ANGEL___002"],
     "_comment": "// TODO"
   },
   {
@@ -505,7 +505,7 @@
     "name": "Angelique Duet",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["ANGEDUETSYS"],
     "_comment": "// TODO"
   },
   {
@@ -613,7 +613,7 @@
     "name": "Aquazone Desktop Life",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["AQUAZONE_01"],
     "_comment": "// TODO"
   },
   {
@@ -694,7 +694,7 @@
     "name": "Area 51",
     "areaCode": "US",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["AREA51__001", "AREA51__002"],
     "_comment": "// TODO"
   },
   {
@@ -712,7 +712,7 @@
     "name": "Assault Rigs",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["ASLTRIGS_01"],
     "_comment": "// TODO"
   },
   {
@@ -739,16 +739,25 @@
     "name": "Asuka 120% Limited ~Burning Fest. Limited~",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["ASK120LIMTD"],
     "_comment": "// TODO"
   },
   {
-    "productId": "MK81115-50",
+    "productId": "MK-81115",
     "version": "V1.001",
     "name": "Athlete Kings",
     "areaCode": "EU",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["ATHLETEKING"],
+    "_comment": "// TODO"
+  },
+  {
+    "productId": "MK-8109150",
+    "version": "V1.200",
+    "name": "Atlantis - The Lost Tales",
+    "areaCode": "EU",
+    "totalNumberOfSaves": 0,
+    "saveDataPatterns": ["ATLANTIS___"],
     "_comment": "// TODO"
   },
   {
@@ -775,7 +784,7 @@
     "name": "Azel Panzer Dragoon RPG",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["PANDRA_3_01"],
     "_comment": "// TODO"
   },
   {
@@ -2737,7 +2746,7 @@
     "name": "Daytona UA Championship Circuit Edition",
     "areaCode": "KR",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["DAYTONA96_0"],
     "_comment": "// TODO"
   },
   {
@@ -3709,7 +3718,7 @@
     "name": "Eberouge Special ~Koi to Mahou no Gakuen Seikatsu~",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["EBESPECIAL1"],
     "_comment": "// TODO"
   },
   {
@@ -3718,7 +3727,7 @@
     "name": "Eisei Meijin",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["EISEI_KIFU1"],
     "_comment": "// TODO"
   },
   {
@@ -3736,7 +3745,7 @@
     "name": "Eiyuu Shigan ~Gal Act Heroism~",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["GAL_ACT_SYS"],
     "_comment": "// TODO"
   },
   {
@@ -3754,7 +3763,7 @@
     "name": "Elf wo Karu Mono-tachi",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["_HUNT_ELVES"],
     "_comment": "// TODO"
   },
   {
@@ -3763,7 +3772,7 @@
     "name": "Elf wo Karu Mono-tachi II (Disc 1)",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["ELVES2_DATA"],
     "_comment": "// TODO"
   },
   {
@@ -3772,7 +3781,7 @@
     "name": "Elf wo Karu Mono-tachi II (Disc 2)",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["ELVES2_DATA"],
     "_comment": "// TODO"
   },
   {
@@ -3781,7 +3790,7 @@
     "name": "Elf wo Karu Mono-tachi ~Hanafuda-hen~",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["ELFHANAFUDA"],
     "_comment": "// TODO"
   },
   {
@@ -3799,7 +3808,7 @@
     "name": "Emit Vol.1 ~Toki no Maigo~",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["EMIT1_V1000"],
     "_comment": "// TODO"
   },
   {
@@ -3808,7 +3817,7 @@
     "name": "Emit Vol.2 ~Inochigake no Tabi~",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["EMIT1_V2000"],
     "_comment": "// TODO"
   },
   {
@@ -3817,11 +3826,11 @@
     "name": "Emit Vol.3 ~Watashi ni Sayonara wo~",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["EMIT1_V3000"],
     "_comment": "// TODO"
   },
   {
-    "productId": "MK81076-50",
+    "productId": "MK-81076-50",
     "version": "V1.001",
     "name": "Enemy Zero",
     "areaCode": "EU",
@@ -3839,12 +3848,12 @@
     "_comment": "// TODO"
   },
   {
-    "productId": "81076",
+    "productId": "MK-81076",
     "version": "V1.001",
     "name": "Enemy Zero",
     "areaCode": "US",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["VOICEREC___"],
     "_comment": "// TODO"
   },
   {
@@ -3862,7 +3871,7 @@
     "name": "Eternal Melody",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["ETERNAL_SYS", "ETERNAL__01"],
     "_comment": "// TODO"
   },
   {
@@ -3871,7 +3880,7 @@
     "name": "Eve Burst Error (Disc 1, 2 or 4)",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["EVE_DATA___"],
     "_comment": "// TODO"
   },
   {
@@ -3943,7 +3952,7 @@
     "name": "Eve the Lost One",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["EVE2_______"],
     "_comment": "// TODO"
   },
   {
@@ -3965,10 +3974,19 @@
     "_comment": "// TODO"
   },
   {
-    "productId": "81084-50",
+    "productId": "MK-81084",
     "version": "V1.000",
     "name": "Exhumed",
     "areaCode": "EU",
+    "totalNumberOfSaves": 0,
+    "saveDataPatterns": ["__EXHUMED__"],
+    "_comment": "// TODO"
+  },
+  {
+    "productId": "GS-9083",
+    "version": "V1.000",
+    "name": "Oregon & Basic - Eyeful Home",
+    "areaCode": "JP",
     "totalNumberOfSaves": 0,
     "saveDataPatterns": [],
     "_comment": "// TODO"
@@ -5914,7 +5932,7 @@
     "name": "Idol Janshi Suchie-Pai II (Disc 1)",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["SUCHI_2_001"],
     "_comment": "// TODO"
   },
   {
@@ -5968,7 +5986,7 @@
     "name": "Idol Janshi Suchie-Pai Secret Album",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["SUCHIENET00"],
     "_comment": "// TODO"
   },
   {
@@ -5995,7 +6013,7 @@
     "name": "Idol Maajan Final Romance 4",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["FINAL_R4COM"],
     "_comment": "// TODO"
   },
   {
@@ -6022,7 +6040,7 @@
     "name": "ImageFight & XMultiply Arcade Gears",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["XM_IF_SC_02"],
     "_comment": "// TODO"
   },
   {
@@ -6868,7 +6886,12 @@
     "name": "Konoyo no Hate de Koi wo Utau Shoujo Yu-No",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": [
+      "YUNO______0",
+      "YUNO______1",
+      "YUNO______2",
+      "YUNO______9"
+    ],
     "_comment": "// TODO"
   },
   {
@@ -8169,11 +8192,18 @@
   },
   {
     "productId": "T-9703H",
-    "version": "",
+    "version": "V1.000",
     "name": "Midway Presents Arcade's Greatest Hits",
     "areaCode": "US",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": [
+      "DEFENDER___",
+      "DEFENDER_II",
+      "JOUST______",
+      "SINISTAR___",
+      "ROBOTRON___",
+      "BUBBLES____"
+    ],
     "_comment": "// TODO"
   },
   {
@@ -8187,11 +8217,11 @@
   },
   {
     "productId": "T-9706H",
-    "version": "",
+    "version": "V1.000",
     "name": "Midway Presents Arcade's Greatest Hits - The Atari Collection 1",
     "areaCode": "US",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["ATARIARCADE"],
     "_comment": "// TODO"
   },
   {
@@ -9334,7 +9364,7 @@
     "name": "O-chan no Oekaki Logic",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["OEKAKI_L_01"],
     "_comment": "// TODO"
   },
   {
@@ -9343,7 +9373,7 @@
     "name": "Ochige Designer Tsukutte pon!",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["OGDESIGN_00", "OGDESIGN_01"],
     "_comment": "// TODO"
   },
   {
@@ -9388,7 +9418,7 @@
     "name": "Ojousama wo Nerae!!",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["GET_LADY___"],
     "_comment": "// TODO"
   },
   {
@@ -9410,21 +9440,20 @@
     "_comment": "// TODO"
   },
   {
-    "productId": "T-7904H-18",
+    "productId": "T-07904H-18",
     "version": "V2.000",
     "name": "Olympic Soccer",
     "areaCode": "DE",
-    "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["OLY_SOC_000"],
     "_comment": "// TODO"
   },
   {
-    "productId": "T-7904H-50",
+    "productId": "T-07904H-50",
     "version": "V2.000",
     "name": "Olympic Soccer",
     "areaCode": "EU",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["OLY_SOC_000"],
     "_comment": "// TODO"
   },
   {
@@ -9433,16 +9462,16 @@
     "name": "Olympic Soccer",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["OLY_SOC_000"],
     "_comment": "// TODO"
   },
   {
-    "productId": "T-7904H",
-    "version": "",
+    "productId": "T-07904H",
+    "version": "V2.000",
     "name": "Olympic Soccer",
     "areaCode": "US",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["OLY_SOC_000"],
     "_comment": "// TODO"
   },
   {
@@ -9451,7 +9480,7 @@
     "name": "Omakase! Savers",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["OMAKASE_000"],
     "_comment": "// TODO"
   },
   {
@@ -9478,7 +9507,7 @@
     "name": "Ousama Game",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["KINGGAME_00"],
     "_comment": "// TODO"
   },
   {
@@ -10275,11 +10304,11 @@
   },
   {
     "productId": "T-26106G",
-    "version": "",
+    "version": "V1.003",
     "name": "Pu Li Ru La Arcade Gears",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["PULIRULA_SC"],
     "_comment": "// TODO"
   },
   {
@@ -10441,7 +10470,7 @@
     "name": "Quarterback Attack",
     "areaCode": "US",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["QBATTACK000"],
     "_comment": "// TODO"
   },
   {
@@ -10477,7 +10506,7 @@
     "name": "QuoVadis 2 ~Wakusei Kyoushuu Ovan Rei~",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["QUOVADI2_00"],
     "_comment": "// TODO"
   },
   {
@@ -11886,7 +11915,7 @@
   },
   {
     "productId": "T-7626G",
-    "version": "",
+    "version": "V1.001",
     "name": "Sega Saturn-you Word Processor Set [EGWORD]",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -14927,11 +14956,11 @@
   },
   {
     "productId": "T-7017G",
-    "version": "",
+    "version": "V1.002",
     "name": "The Unsolved ~Hyper Science Adventure~",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["UNSOLVED001"],
     "_comment": "// TODO"
   },
   {
@@ -15565,7 +15594,7 @@
     "_comment": "// TODO"
   },
   {
-    "productId": "MK81180-50",
+    "productId": "MK81180",
     "version": "V6.200",
     "name": "UEFA Euro 96 England",
     "areaCode": "EU",
@@ -15651,7 +15680,7 @@
     "name": "Universal Nuts",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["UNIVERSAL_0"],
     "_comment": "// TODO"
   },
   {
@@ -16961,11 +16990,11 @@
   },
   {
     "productId": "T-26107G",
-    "version": "",
+    "version": "V1.002",
     "name": "Wonder 3 Arcade Gears",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["WONDER3RANK"],
     "_comment": "// TODO"
   },
   {
@@ -17176,12 +17205,21 @@
     "_comment": "// TODO"
   },
   {
+    "productId": "T-37401H",
+    "version": "V1.000",
+    "name": "Xianjian Qixiazhuan",
+    "areaCode": "TW",
+    "totalNumberOfSaves": 0,
+    "saveDataPatterns": [],
+    "_comment": "// TODO"
+  },
+  {
     "productId": "T-8108H",
     "version": "V1.000",
     "name": "X-Men Children of the Atom",
     "areaCode": "US",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["XMEN_COTA01"],
     "_comment": "// TODO"
   },
   {
@@ -17190,7 +17228,7 @@
     "name": "X-Men Children of the Atom",
     "areaCode": "EU",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["XMEN_COTA01"],
     "_comment": "// TODO"
   },
   {
@@ -17199,16 +17237,7 @@
     "name": "X-Men Children of the Atom",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
-    "_comment": "// TODO"
-  },
-  {
-    "productId": "T-8108H",
-    "version": "",
-    "name": "X-Men Children of the Atom",
-    "areaCode": "US",
-    "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["XMEN_COTA01"],
     "_comment": "// TODO"
   },
   {
@@ -17226,7 +17255,7 @@
     "name": "Yellow Brick Road",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["YBR_SDATA__"],
     "_comment": "// TODO"
   },
   {
@@ -17235,7 +17264,7 @@
     "name": "Yoshimoto Maajan Club",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["YOSIMOTO_MJ"],
     "_comment": "// TODO"
   },
   {
@@ -17271,7 +17300,7 @@
     "name": "Yuukyuu Gensoukyoku",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["YUKYU_G_SYS", "YUKYU_G__01"],
     "_comment": "// TODO"
   },
   {
@@ -17280,7 +17309,7 @@
     "name": "Yuukyuu Gensoukyoku 2nd Album",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["YUKYU_2_SYS", "YUKYU_2__01"],
     "_comment": "// TODO"
   },
   {
@@ -17304,19 +17333,19 @@
   {
     "productId": "T-27808G",
     "version": "V1.001",
-    "name": "Yuukyuu Gensoukyoku ensemble",
+    "name": "Yuukyuu Gensoukyoku Ensemble",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["UQ_ENSEMBLE"],
     "_comment": "// TODO"
   },
   {
     "productId": "T-27809G",
     "version": "V1.005",
-    "name": "Yuukyuu Gensoukyoku ensemble 2",
+    "name": "Yuukyuu Gensoukyoku Ensemble 2",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["UQ_ENS2_SYS", "UQ_ENS2__01"],
     "_comment": "// TODO"
   },
   {
@@ -17334,11 +17363,11 @@
     "name": "Yuushun Classic Road",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["CLASSIC_SV0"],
     "_comment": "// TODO"
   },
   {
-    "productId": "T-25412H-50",
+    "productId": "T-25412H-5",
     "version": "V1.000",
     "name": "Z",
     "areaCode": "EU",
@@ -17361,7 +17390,7 @@
     "name": "Zap! Snowboarding Trix",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["ZAP_SNOW_00"],
     "_comment": "// TODO"
   },
   {
@@ -17370,7 +17399,7 @@
     "name": "Zap! Snowboarding Trix'98",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["ZAPSNOW2_00"],
     "_comment": "// TODO"
   },
   {
@@ -17379,7 +17408,7 @@
     "name": "Zen Nihon Pro Wres Featuring Virtua",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["ZENNICHI_01", "ZENNICHI_02"],
     "_comment": "// TODO"
   },
   {
@@ -17397,7 +17426,7 @@
     "name": "Zenkoku Seifuku Bishoujo Grand Prix Find Love",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["FINDLOVE_01"],
     "_comment": "// TODO"
   },
   {
@@ -17406,7 +17435,7 @@
     "name": "Zero Divide ~The Final Conflict~",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["ZDFINAL_SYS"],
     "_comment": "// TODO"
   },
   {
@@ -17415,7 +17444,7 @@
     "name": "Zero4 Champ DooZy-J Type-R",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["ZERO4____01"],
     "_comment": "// TODO"
   },
   {
@@ -17460,7 +17489,7 @@
     "name": "Zork I ~The Great Underground Empire~",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["ZORK1_ST_01"],
     "_comment": "// TODO"
   },
   {
@@ -17478,7 +17507,7 @@
     "name": "étude Prologue ~Yureugoku Kokoro no Katachi~",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["ETUDE___SYS", "ETUDE____01"],
     "_comment": "// TODO"
   }
 ]
