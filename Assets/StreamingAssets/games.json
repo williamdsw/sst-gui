@@ -2616,7 +2616,7 @@
   },
   {
     "productId": "T-1102G",
-    "version": "",
+    "version": "V1.001",
     "name": "Darius Gaiden",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -3525,11 +3525,11 @@
   },
   {
     "productId": "T-12703H",
-    "version": "",
+    "version": "V1.000",
     "name": "Dragon Force",
     "areaCode": "US",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["DR_FORCE_00"],
     "_comment": "// TODO"
   },
   {
@@ -3543,11 +3543,11 @@
   },
   {
     "productId": "GS-9184",
-    "version": "",
+    "version": "V1.006",
     "name": "Dragon Force II ~Kami Sarishi Daichi ni~",
     "areaCode": "JP",
-    "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "totalNumberOfSaves": 5,
+    "saveDataPatterns": ["DF2_DATA_01"],
     "_comment": "// TODO"
   },
   {
@@ -5433,7 +5433,7 @@
   },
   {
     "productId": "GS-7105",
-    "version": "",
+    "version": "V1.004",
     "name": "Habitat II",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -5459,12 +5459,12 @@
     "_comment": "// TODO"
   },
   {
-    "productId": "81202",
-    "version": "",
+    "productId": "MK-81202",
+    "version": "V1.000",
     "name": "Hang-On GP",
     "areaCode": "US",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["HANGONGP_02"],
     "_comment": "// TODO"
   },
   {
@@ -5478,34 +5478,34 @@
   },
   {
     "productId": "T-20902G",
-    "version": "",
+    "version": " V1.004",
     "name": "Hansha de Spark!",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["HANSYASPARK"],
     "_comment": "// TODO"
   },
   {
-    "productId": "T-12303H-50",
-    "version": "",
+    "productId": "T-12303H",
+    "version": "V1.001",
     "name": "Hardcore 4X4",
     "areaCode": "EU",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["HARDCORE_01"],
     "_comment": "// TODO"
   },
   {
     "productId": "T-19904G",
-    "version": "",
+    "version": "V1.001",
     "name": "Harukaze Sentai V-Force",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["HARUKAZE_VF"],
     "_comment": "// TODO"
   },
   {
     "productId": "T-1103G",
-    "version": "",
+    "version": "V1.001",
     "name": "HatTrick Hero S",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -5514,16 +5514,16 @@
   },
   {
     "productId": "T-33004G",
-    "version": "",
+    "version": "V1.001",
     "name": "Hatsukoi Monogatari",
     "areaCode": "JP",
-    "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "totalNumberOfSaves": 8,
+    "saveDataPatterns": ["HATSUKOI_DT", "HATSUKOI_01"],
     "_comment": "// TODO"
   },
   {
     "productId": "T-21902G",
-    "version": "",
+    "version": "V1.003",
     "name": "Haunted Casino",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -5532,7 +5532,7 @@
   },
   {
     "productId": "T-15014G",
-    "version": "",
+    "version": "V1.000",
     "name": "Heartbeat Scramble",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -5540,8 +5540,8 @@
     "_comment": "// TODO"
   },
   {
-    "productId": "T-1502H-50",
-    "version": "",
+    "productId": "T-1502H",
+    "version": "V1.001",
     "name": "Hebereke's Popoitto",
     "areaCode": "EU",
     "totalNumberOfSaves": 0,
@@ -5549,12 +5549,21 @@
     "_comment": "// TODO"
   },
   {
+    "productId": "GS-9121",
+    "version": "V2.000",
+    "name": "Heim Waltz",
+    "areaCode": "JP",
+    "totalNumberOfSaves": 0,
+    "saveDataPatterns": [],
+    "_comment": "// TODO"
+  },
+  {
     "productId": "T-7605H",
-    "version": "",
+    "version": "V1.000",
     "name": "Heir of Zendor ~The Legend and the Land~",
     "areaCode": "US",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["ZENDOR___01"],
     "_comment": "// TODO"
   },
   {
@@ -5568,7 +5577,7 @@
   },
   {
     "productId": "T-18702G",
-    "version": "",
+    "version": "V1.001",
     "name": "Heiwa Pachinko Soushingeki",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -5577,7 +5586,7 @@
   },
   {
     "productId": "T-9518G",
-    "version": "",
+    "version": "V1.003",
     "name": "Henry Explorers",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -5613,16 +5622,16 @@
   },
   {
     "productId": "T-25406H",
-    "version": "",
+    "version": "V1.002",
     "name": "Hexen ~Beyond Heretic~",
     "areaCode": "US",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["HEXENSET000"],
     "_comment": "// TODO"
   },
   {
     "productId": "T-5002H-50",
-    "version": "",
+    "version": "V1.000",
     "name": "Hi-Octane",
     "areaCode": "EU",
     "totalNumberOfSaves": 0,
@@ -5649,7 +5658,7 @@
   },
   {
     "productId": "GS-9061",
-    "version": "",
+    "version": "V1.010",
     "name": "Hideo Nomo World Series Baseball",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -5667,20 +5676,20 @@
   },
   {
     "productId": "T-14402H",
-    "version": "",
+    "version": "V1.002",
     "name": "High Velocity - Mountain Racing Challenge",
     "areaCode": "US",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["HIGH_VELO_0"],
     "_comment": "// TODO"
   },
   {
     "productId": "T-19715G",
-    "version": "",
+    "version": "V1.002",
     "name": "Highschool Terra Story",
     "areaCode": "JP",
-    "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "totalNumberOfSaves": 5,
+    "saveDataPatterns": ["HITERRA_SYS", "HITERRA__01"],
     "_comment": "// TODO"
   },
   {
@@ -5694,25 +5703,25 @@
   },
   {
     "productId": "T-31101H",
-    "version": "",
+    "version": "V1.000",
     "name": "Highway 2000",
     "areaCode": "US",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["HIGHWAY2000"],
     "_comment": "// TODO"
   },
   {
     "productId": "T-29005G",
-    "version": "",
+    "version": "V1.001",
     "name": "Himitsu Sentai Metamor V",
     "areaCode": "JP",
-    "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "totalNumberOfSaves": 7,
+    "saveDataPatterns": ["METAMOL_SYS", "METAMOL_V01"],
     "_comment": "// TODO"
   },
   {
     "productId": "T-1503G",
-    "version": "",
+    "version": "V1.003",
     "name": "Hissatsu Pachinko Collection",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -5721,7 +5730,7 @@
   },
   {
     "productId": "T-23402G",
-    "version": "",
+    "version": "V1.003",
     "name": "Hissatsu!",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -5739,7 +5748,7 @@
   },
   {
     "productId": "T-20601G",
-    "version": "",
+    "version": "V1.000",
     "name": "Hokuto no Ken",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -5748,29 +5757,29 @@
   },
   {
     "productId": "T-3001G",
-    "version": "",
+    "version": "V1.007",
     "name": "Honkaku 4-nin Uchi Geinoujin Taikyoku Maajan ~The Wareme DE Pon~",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["WAREMEDEPON"],
     "_comment": "// TODO"
   },
   {
     "productId": "T-16611G",
-    "version": "",
+    "version": " V1.004",
     "name": "Honkaku Hanafuda",
     "areaCode": "JP",
-    "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "totalNumberOfSaves": 1,
+    "saveDataPatterns": ["HK_HANAFUDA"],
     "_comment": "// TODO"
   },
   {
     "productId": "T-18709G",
-    "version": "",
+    "version": "V1.001",
     "name": "Honkaku Pro Maajan Tetsuman Special",
     "areaCode": "JP",
-    "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "totalNumberOfSaves": 1,
+    "saveDataPatterns": ["NAXA_TET_01"],
     "_comment": "// TODO"
   },
   {
@@ -5784,16 +5793,16 @@
   },
   {
     "productId": "T-4402G",
-    "version": "",
+    "version": "V1.000",
     "name": "Honkaku Shougi Shinan Wakamatsu Shougi Juku",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["WAKAMATSUSG"],
     "_comment": "// TODO"
   },
   {
     "productId": "T-20507G",
-    "version": "",
+    "version": "V1.002",
     "name": "Hop Step Idol",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -5802,11 +5811,11 @@
   },
   {
     "productId": "T-24301G",
-    "version": "",
+    "version": "V1.004",
     "name": "Horror Tour",
     "areaCode": "JP",
-    "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "totalNumberOfSaves": 5,
+    "saveDataPatterns": ["HORROR_T___", "HORROR_T_00"],
     "_comment": "// TODO"
   },
   {
@@ -5820,12 +5829,11 @@
   },
   {
     "productId": "T-19714G",
-    "version": "",
+    "version": "V1.003",
     "name": "Houkago Renai Club ~Koi no Etude~ (Genteiban)",
     "areaCode": "JP",
-    "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
-    "_comment": "// TODO"
+    "totalNumberOfSaves": 8,
+    "saveDataPatterns": ["HOUKAGO__", "HORROR_T_00"]
   },
   {
     "productId": "T-2001G",
@@ -5838,11 +5846,11 @@
   },
   {
     "productId": "T-7015H",
-    "version": "",
+    "version": "V1.000",
     "name": "Hyper 3-D Pinball",
     "areaCode": "US",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["POO_PINBALL"],
     "_comment": "// TODO"
   },
   {
@@ -5892,16 +5900,16 @@
   },
   {
     "productId": "T-1803G",
-    "version": "",
+    "version": "V1.002",
     "name": "Hyper Reverthion",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["HYPER_RV000"],
     "_comment": "// TODO"
   },
   {
     "productId": "T-9105G",
-    "version": "",
+    "version": "V5.000",
     "name": "Hyper Securities S",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
@@ -9370,7 +9378,7 @@
   {
     "productId": "T-9108G",
     "version": "V1.090",
-    "name": "Ochige Designer Tsukutte pon!",
+    "name": "Ochigee Designer Tsukutte Pon!",
     "areaCode": "JP",
     "totalNumberOfSaves": 0,
     "saveDataPatterns": ["OGDESIGN_00", "OGDESIGN_01"],
@@ -11168,11 +11176,11 @@
   },
   {
     "productId": "T-15025G",
-    "version": "",
+    "version": "V1.003",
     "name": "Ryuuteki Gosennen ~Dragons of China~",
     "areaCode": "JP",
-    "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "totalNumberOfSaves": 3,
+    "saveDataPatterns": ["DRA_O_CH_00"],
     "_comment": "// TODO"
   },
   {
@@ -12336,12 +12344,12 @@
     "_comment": "// TODO"
   },
   {
-    "productId": "81383",
-    "version": "",
+    "productId": "MK-81383",
+    "version": "V1.001",
     "name": "Shining Force III",
     "areaCode": "US",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["SFORCE31_01"],
     "_comment": "// TODO"
   },
   {
@@ -14667,12 +14675,12 @@
     "_comment": "// TODO"
   },
   {
-    "productId": "T-15909H",
-    "version": "",
+    "productId": "T-15909H50",
+    "version": "V1.000",
     "name": "The Horde",
     "areaCode": "US",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["THEHORDE000", "THEHORDESAV"],
     "_comment": "// TODO"
   },
   {
@@ -15716,7 +15724,7 @@
     "name": "Valora Valley Golf",
     "areaCode": "EU",
     "totalNumberOfSaves": 0,
-    "saveDataPatterns": [],
+    "saveDataPatterns": ["VICGOLF1DAT"],
     "_comment": "// TODO"
   },
   {

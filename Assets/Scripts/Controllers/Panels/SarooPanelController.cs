@@ -8,6 +8,7 @@ using SFB;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using System.Text;
 using UI;
 using UnityEngine;
@@ -18,44 +19,81 @@ namespace Controllers.Panels
 {
     public class SarooPanelController : MonoBehaviour
     {
+        // || Inspector
+
+        [Header("Required UI Elements from Panel")]
         [SerializeField] private Button loadFileButton;
         [SerializeField] private Button importGameButton;
         [SerializeField] private Transform scrollRectViewportContent;
         [SerializeField] private ToggleGroup scrollRectViewportContentToggleGroup;
         [SerializeField] private SlotItemPrefab slotItemPrefab;
         [SerializeField] private SarooSaveSlotPanelController sarooSaveSlotPanelController;
+        [SerializeField] private ConfirmGamePanelController confirmGamePanelController;
 
-        [SerializeField] private List<string> validGames;
+        // || Cached
 
-        private List<OutputItem> fileOutputItems;
-
-        [SerializeField] private string filePath = string.Empty;
-        [SerializeField] private int currentSaveSlot = -1;
-        [SerializeField] private string currentSaveName = string.Empty;
-        [SerializeField] private string currentSaveSlotName = string.Empty;
-        [SerializeField] private string choosenFileName = string.Empty;
-
+        private string filePath = string.Empty;
+        private int currentSaveSlot = -1;
         private byte[] sarooContentFile;
+        private SarooSaveItem currentSarooSaveItem = null;
 
+        private List<SarooSaveItem> validSarooSaveItems;
+        private List<OutputItem> fileOutputItems;
+        private List<Game> games;
+
+        // TODO
         private Language language = new Language();
-
 
         private void Awake()
         {
             fileOutputItems = new List<OutputItem>();
-            validGames = new List<string>();
+            validSarooSaveItems = new List<SarooSaveItem>();
+            games = new List<Game>();
 
-            loadFileButton.onClick.AddListener(() =>
-            {
-                importGameButton.interactable = false;
-                StandaloneFileBrowser.OpenFilePanelAsync(language.ChooseSarooFile, string.Empty, Properties.FixedStrings.Bin, false, OnSarooFileChooseCallback);
-            });
+            LoadGamesFromJson();
+            AddListeners();
+        }
 
-            importGameButton.onClick.AddListener(() =>
+        /// <summary>
+        /// 
+        /// </summary>
+        private void LoadGamesFromJson()
+        {
+            try
             {
-                // TODO
-                StandaloneFileBrowser.OpenFilePanelAsync(language.ChooseSarooFile, string.Empty, Properties.FixedStrings.Bin, false, OnGameChooseCallback);
-            });
+                string content = File.ReadAllText(Path.Join(Application.streamingAssetsPath, "games.json"));
+                games = JsonConvert.DeserializeObject<List<Game>>(content);
+            }
+            catch (Exception ex)
+            {
+                OutputScrollViewController.Instance.Add(string.Format("Error on loading games from JSON file: {0}", ex.Message), OutputItemEnum.Error);
+                throw ex;
+            }
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        private void AddListeners()
+        {
+            try
+            {
+                loadFileButton.onClick.AddListener(() =>
+                {
+                    importGameButton.interactable = false;
+                    StandaloneFileBrowser.OpenFilePanelAsync(language.ChooseSarooFile, string.Empty, Properties.FixedStrings.Bin, false, OnSarooFileChooseCallback);
+                });
+
+                importGameButton.onClick.AddListener(() =>
+                {
+                    StandaloneFileBrowser.OpenFilePanelAsync(language.ChooseSarooFile, string.Empty, Properties.FixedStrings.Bin, false, OnGameChooseCallback);
+                });
+            }
+            catch (Exception ex)
+            {
+                OutputScrollViewController.Instance.Add(string.Format("Error on add listeners: {0}", ex.Message), OutputItemEnum.Error);
+                throw ex;
+            }
         }
 
         /// <summary>
@@ -96,13 +134,33 @@ namespace Controllers.Panels
         /// <param name="path"></param>
         private void OnGameChooseCallback(string[] paths)
         {
-            // TODO
             try
             {
                 if (paths.Length == 0) return;
 
-                string content = FileManager.GetIdVersionInFile(paths[0]);
-                if (validGames.IndexOf(content) != -1)
+                string path = paths[0];
+                string system = FileManager.GetSystemInFile(path);
+                if (system.Trim() != "SEGA SEGASATURN")
+                {
+                    // TODO
+                    string text = "Please choose a GAME file!";
+                    OutputScrollViewController.Instance.Add(text, OutputItemEnum.Error);
+                    return;
+                }
+
+                string content = FileManager.GetIdVersionInFile(path);
+
+                // Validate if its a valid game by header
+
+                if (string.IsNullOrEmpty(content))
+                {
+                    // TODO
+                    string text = "Please choose a valid game!";
+                    OutputScrollViewController.Instance.Add(text, OutputItemEnum.Error);
+                    return;
+                }
+
+                if (validSarooSaveItems.FindIndex(item => item.RawHeader == content) != -1)
                 {
                     // TODO
                     string text = string.Format("[{0}] already exists in SAROO Save File!", content);
@@ -110,16 +168,32 @@ namespace Controllers.Panels
                     return;
                 }
 
-                Debug.LogFormat("text: {0}, bytes: {1}", "MK-81213  V1.001", JsonConvert.SerializeObject(Encoding.UTF8.GetBytes("MK-81213  V1.001")));
-                Debug.LogFormat("text: {0}, bytes: {1}", content, JsonConvert.SerializeObject(Encoding.UTF8.GetBytes(content)));
-                Debug.Log(FileManager.Search(sarooContentFile, Encoding.UTF8.GetBytes("MK-81213  V1.001")));
-                Debug.Log(FileManager.Search(sarooContentFile, Encoding.UTF8.GetBytes(content)));
+                Debug.Log(content);
 
-                FileManager.Test2(filePath.Replace("\"", ""), FileManager.Search(sarooContentFile, Encoding.UTF8.GetBytes(validGames[^1])), Encoding.UTF8.GetBytes(content));
+                string[] values = content.Split("V");
+                string productId = values[0].Trim();
+                string version = $"V{values[1].Trim()}";
+                Game game = games.Find(item => item.ProductId == productId && item.Version == version) ?? new Game()
+                {
+                    Name = string.Empty,
+                    ProductId = productId,
+                    Version = version,
+                    AreaCode = string.Empty
+                };
 
-                OnSarooFileChooseCallback(new string[] { filePath.Replace("\"", "") });
+                // TODO remove
+                if (game == null)
+                {
+                    Debug.LogErrorFormat("{0} -> {1}", productId, version);
+                }
 
+                confirmGamePanelController.Show(game, () =>
+                {
+                    string data = validSarooSaveItems[^1].RawHeader;
+                    FileManager.Test2(filePath.Replace("\"", ""), FileManager.Search(sarooContentFile, Encoding.UTF8.GetBytes(data)), Encoding.UTF8.GetBytes(content));
 
+                    OnSarooFileChooseCallback(new string[] { filePath.Replace("\"", "") });
+                });
             }
             catch (Exception ex)
             {
@@ -129,7 +203,7 @@ namespace Controllers.Panels
 
         private IEnumerator ClearList()
         {
-            validGames.Clear();
+            validSarooSaveItems.Clear();
 
             foreach (Transform item in scrollRectViewportContent)
             {
@@ -142,13 +216,13 @@ namespace Controllers.Panels
 
         private IEnumerator PopulateList()
         {
-
             try
             {
                 for (int index = 0; index < fileOutputItems.Count; index++)
                 {
                     OutputItem item = fileOutputItems[index];
 
+                    // Invalid content such as backup ram file, single save file, game file and others.
                     if (!IsSarooItemValid(item.Content))
                     {
                         item.Content = item.IsValid ? language.DoNotImportBackupRam : language.DoNotImportSaveFile;
@@ -164,27 +238,28 @@ namespace Controllers.Panels
                     bool containsSquareBrackets = text.Contains('[') && text.Contains(']');
                     bool hasValidHeader = false;
 
+                    // Formatting invalid items e removing from list
                     if (!containsSquareBrackets)
                     {
-                        Debug.LogError(text);
                         if (index + 1 <= fileOutputItems.Count)
                         {
                             text += fileOutputItems[index + 1].Content.Trim();
                             fileOutputItems.RemoveAt(index + 1);
                         }
-                        Debug.LogError(text);
                         item.Content = text;
                         item.IsValid = false;
                     }
 
+                    // Checking valid content
                     if (containsSquareBrackets)
                     {
                         string v = text[text.IndexOf('[')..].Replace("[", string.Empty).Replace("]", string.Empty);
-                        item.IsValid = hasValidHeader = v.Length == 16;
+                        int indexOfVersion = v.LastIndexOf("V");
+                        item.IsValid = hasValidHeader = v.Length == 16 && indexOfVersion != -1;
 
                         if (hasValidHeader)
                         {
-                            validGames.Add(v);
+                            validSarooSaveItems.Add(new SarooSaveItem(v));
                         }
                     }
 
@@ -193,6 +268,7 @@ namespace Controllers.Panels
                     validSlotItem.Init(item, index + 1, scrollRectViewportContentToggleGroup, OnSlotItemChoose);
                 }
 
+                // TODO
                 string a = fileOutputItems.Count >= 1 ? string.Format("{0} has {1} games", filePath, fileOutputItems.Count) : string.Format("{0} doesn't have any game", filePath);
                 OutputScrollViewController.Instance.Add(a, OutputItemEnum.Info);
                 importGameButton.interactable = true;
@@ -211,13 +287,7 @@ namespace Controllers.Panels
         /// <param name="item"></param>
         private bool IsSarooItemValid(string item) => item.Contains(Properties.FixedStrings.Slot) && item.IndexOf(Properties.FixedStrings.Slot) == 0;
 
-        public void TriggerCurrentSlotItem()
-        {
-            Debug.Log("TriggerCurrentSlotItem");
-            Debug.Log(currentSaveSlot);
-            Debug.Log(currentSaveName);
-            OnSlotItemChoose(true, currentSaveSlot, currentSaveName);
-        }
+        public void TriggerCurrentSlotItem() => OnSlotItemChoose(true, currentSaveSlot, currentSarooSaveItem.RawHeader);
 
         /// <summary>
         /// 
@@ -229,48 +299,39 @@ namespace Controllers.Panels
         {
             try
             {
-                if (!isValid)
+                currentSarooSaveItem = validSarooSaveItems.Find(item => item.FormattedHeader == name[name.IndexOf("[")..].Trim());
+
+                if (!isValid || currentSarooSaveItem == null)
                 {
+                    // TODO
                     OutputScrollViewController.Instance.Add(string.Format("{0} is an invalid game", name), OutputItemEnum.Error);
                     sarooSaveSlotPanelController.Reset();
                     return;
                 }
 
                 currentSaveSlot = save;
-                currentSaveName = name;
-                choosenFileName = name[name.IndexOf("[")..].Trim();
-                currentSaveSlotName = string.Concat(choosenFileName, ".", Properties.FixedStrings.Bin);
 
                 // TODO
-                OutputScrollViewController.Instance.Add(string.Format("Importing saves from {0}", choosenFileName), OutputItemEnum.Info);
+                OutputScrollViewController.Instance.Add(string.Format("Importing saves from {0}", currentSarooSaveItem.RawHeader), OutputItemEnum.Info);
 
                 List<string> arguments = new() { filePath, "-t", currentSaveSlot.ToString() };
                 OutputScrollViewController.Instance.Add(string.Format("sst.exe {0}", String.Join(" ", arguments)), OutputItemEnum.Info);
                 List<OutputItem> message = ProcessHelper.Execute(arguments);
-                Debug.Log(JsonConvert.SerializeObject(message));
 
+                if (message.Count == 0) return;
+                if (message.Count == 1) message = new List<OutputItem>();
+                if (message.Count > 1) message.RemoveAt(0);
 
-                // Filter list
-                // Get first item as id-version
-                // Get others items as slots
-
-                if (message.Count == 0)
+                Game game = games.Find(item => item.ProductId == currentSarooSaveItem.ProductId && item.Version == currentSarooSaveItem.Version) ?? new Game()
                 {
-                    return;
-                }
+                    Name = "Invalid Game or Game Not Found!",
+                    AreaCode = "NA",
+                    Version = string.Empty,
+                    ProductId = string.Empty,
+                    TotalNumberOfSaves = 0
+                };
 
-                if (message.Count == 1)
-                {
-                    message = new List<OutputItem>();
-                }
-
-                if (message.Count > 1)
-                {
-                    message.RemoveAt(0);
-                }
-
-
-                sarooSaveSlotPanelController.ShowList(filePath, currentSaveSlot, choosenFileName, message);
+                sarooSaveSlotPanelController.ShowList(filePath, currentSaveSlot, game, message);
             }
             catch (Exception ex)
             {

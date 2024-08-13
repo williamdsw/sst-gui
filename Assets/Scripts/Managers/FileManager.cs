@@ -87,8 +87,10 @@ namespace Managers
         /// 
         /// </summary>
         /// <param name="path"></param>
+        /// <param name="offset"></param>
+        /// <param name="count"></param>
         /// <returns></returns>
-        public static string GetIdVersionInFile(string path)
+        private static byte[] GetDataFromFileAtOffset(string path, int offset, int count)
         {
             try
             {
@@ -96,9 +98,43 @@ namespace Managers
 
                 using FileStream stream = new(path, FileMode.Open);
                 using BinaryReader reader = new(stream);
-                reader.BaseStream.Seek(48, SeekOrigin.Begin);
-                reader.Read(data, 0, 16);
-                return Encoding.UTF8.GetString(data);
+                reader.BaseStream.Seek(offset, SeekOrigin.Begin);
+                reader.Read(data, 0, count);
+                return data;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="path"></param>
+        /// <returns></returns>
+        public static string GetSystemInFile(string path)
+        {
+            try
+            {
+                return Encoding.UTF8.GetString(GetDataFromFileAtOffset(path, 16, 16));
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="path"></param>
+        /// <returns></returns>
+        public static string GetIdVersionInFile(string path)
+        {
+            try
+            {
+                return Encoding.UTF8.GetString(GetDataFromFileAtOffset(path, 48, 16));
             }
             catch (Exception ex)
             {

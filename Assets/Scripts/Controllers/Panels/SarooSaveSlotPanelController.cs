@@ -18,7 +18,6 @@ namespace Controllers.Panels
 {
     public class SarooSaveSlotPanelController : MonoBehaviour
     {
-        [SerializeField] private TextMeshProUGUI idVersionLabel;
         [SerializeField] private TextMeshProUGUI nameRegionLabel;
         [SerializeField] private Transform scrollRectViewportContent;
         [SerializeField] private ToggleGroup scrollRectViewportContentToggleGroup;
@@ -183,21 +182,18 @@ namespace Controllers.Panels
         public void Reset()
         {
             Debug.Log("Reset");
-            idVersionLabel.text = "[ID VERSION]";
             importNewSlotButton.interactable = false;
             importSelectedSaveButton.interactable = exportSelectedSaveButton.interactable = false;
             StartCoroutine(ClearList(null));
         }
 
-        public void ShowList(string filePath, int selectedSlot, string title, List<OutputItem> saveSlotItems)
+        public void ShowList(string filePath, int selectedSlot, Game game, List<OutputItem> saveSlotItems)
         {
-            Debug.Log("ShowList");
-            Debug.Log("saveSlotItems.Count: " + saveSlotItems.Count);
             fileOutputItems = new List<OutputItem>(saveSlotItems);
             currentFilePath = filePath;
             currentSlot = selectedSlot;
-            idVersionLabel.text = title;
-            importNewSlotButton.interactable = true;
+            nameRegionLabel.text = string.Format("{0} ({1})", game.Name, game.AreaCode);
+            importNewSlotButton.interactable = !string.IsNullOrEmpty(game.ProductId);
             importSelectedSaveButton.interactable = exportSelectedSaveButton.interactable = false;
             numberOfSlots = saveSlotItems.Count;
             StartCoroutine(ClearList(saveSlotItems));
